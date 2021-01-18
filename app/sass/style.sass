@@ -1,0 +1,174 @@
+@import "imports.sass"
+@include font('IBMPlexMono-Regular', '/reformat/fonts/', '.ttf');
+@include font('IBMPlexMono-Bold', '/reformat/fonts/', '.ttf');
+// @include font('MunkenSansWeb-Bold', '/reformat/fonts/MunkenSans/', '.woff');
+// @include font('Roboto_Mono', 'https://tikvik.github.io/rcnkskweb/dist/fonts/')
+
+html,body
+	font-size: $font-size-sm
+	@include for-size(md)
+		font-size: $font-size
+	font-family: IBMPlexMono-Regular
+
+
+h1,h2,h3,h4,h5,.nav-link
+	font-family: IBMPlexMono-Bold
+	// font-weight: bold
+	// letter-spacing: -1px
+
+
+
+
+h2.subtitle
+	font-size: $subtitle-font-size
+	padding: $gap 0 $gap*1.7 0
+	font-weight: bold
+h3,.perex
+	font-size: $perex-font-size
+
+.posts
+	display: flex
+	flex-wrap: wrap
+	.post
+		flex: 0 0 auto
+		width: 100%
+		margin-bottom: $gap*3
+		@include for-size(md)
+			width: 50%
+
+
+
+.content
+	padding 0 $gap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-menu
+	max-width: $wrap-width
+	@include for-size(xl)
+		max-width: 1500px
+	margin-left: auto
+	margin-right: auto
+
+	ul.navbar-nav
+		padding: 0
+		padding-bottom: $gap*3
+		margin: 0
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+		li.nav-item
+			position: relative
+			display: flex
+			@extend h2
+			// text-transform: uppercase
+			font-size: $navitem-font-size
+			padding: $gap/4 0 $gap/4 0
+			a.nav-link
+				// padding: 1.5rem 2rem
+				// &::after 
+				// 	content: ""
+				// 	position: absolute
+				// 	bottom: 0px
+				// 	left: 0px
+				// 	width: 0%
+				// 	height: $underline-size
+				// 	background: black
+				// 	// transition: all 0.3s ease
+				// &:hover
+				// 	&::after 
+				// 		width: 100%
+				// 		background-color: black
+
+.px-gap
+	padding: 0 $gap
+
+main.main,.wrap
+	max-width: $wrap-width
+	padding: 0 $gap
+	@include for-size(xl)
+		max-width: 1500px
+	margin-left: auto
+	margin-right: auto
+
+	article
+		// font-size: 1.5rem
+		text-align: left
+		padding-bottom: $gap
+		display: inline-block
+		h2
+			font-size: $navitem-font-size
+			margin-bottom: $gap/5
+			line-height: normal
+	.hashtags
+		nav.nav_menu
+			ul.navbar-nav
+				padding-top: 0
+				li.nav-item
+					padding: $gap/4 $gap/2 $gap/4 0
+					text-transform: none
+					line-height: 1
+
+				span
+					font-family: MunkenSansWeb-Bold
+
+
+
+.read-more
+	width: 100%
+	text-align: center
+	// border-bottom: 1rem solid black
+	margin-bottom: $gap*3
+
+
+
+footer.footer
+	@extend main
+	img
+		height: $gap*5
+
+
+// Výjimky
+body.about
+	article
+		flex-direction: column
+
+body.index,.single,.people,.events
+	article
+		display: flex
+		flex-direction: column
+		@include for-size(md)
+			flex-direction: row
+		h2
+			flex: 1
+
+		section
+			flex: 4
+
+body.podcast
+	article
+		width: 50%
+		float: left
+		padding: 0 $gap
+
+
+
+
+
+.hashtags
+	.nav-menu
+		.navbar-nav
+			justify-content: start
+
+

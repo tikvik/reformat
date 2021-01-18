@@ -1,0 +1,92 @@
+//- Připojené v navbar.pug
+
+mixin mfooter (footerData)
+	-  var ni = footerData+1
+	-  var pi = footerData-1
+	if (footerData >= projects.length -1)
+		- var ni = 0
+	if (footerData <= 0)
+		- var pi = projects.length -1;
+	br
+	.pag-info.hidelg
+	.pag-info2.hidelg
+
+	.footer
+		.footer-left
+
+			.pag-info.hidemob
+			br
+			span
+				a.nav-link(href="single" + pi + ".html") Předešlý projekt
+		div.project-text-modal
+			if projects[i]
+				| !{projects[i].project[0].title}
+			br
+			span
+				if projects[i]
+					| #{projects[i].project[0].rok}
+				br
+				a.open-button.nav-link.active(href="#",onclick="return false" ) Zobrazit text
+		div.footer-right
+			.pag-info2.hidemob
+			br
+			span
+				a.nav-link(href="single" + ni + ".html") Následující projekt
+
+
+mixin mimages (index)
+	.grid#content
+		ul.grid-ul
+			li
+				div.carousel
+					if gimg[index]
+						each item, i in gimg[index][0]
+							div
+								div.pmodal-ico(onclick="mymodal()")
+									img(src=item)
+
+
+
+
+				
+
+			li
+				div.carousel2
+					if gimg[index]
+						each item in gimg[index][1]
+							div
+								div.pmodal-ico(onclick="mymodal2()")
+									img(src=item)
+		
+
+	
+
+
+	// The Modal
+	#myModal.pmodal
+		// Modal content
+		.pmodal-content
+			//- span.pclose
+			//- 	img.svgimg(src="../images/ico_close.svg")
+			div.slider-for
+				if gimg[index]
+					each item in gimg[index][0]
+							div
+								//- img(data-lazy=item)
+								img.img-fluid.img-close(src=item)
+
+	// The Modal
+	#myModal2.pmodal.pmodal2
+		// Modal content
+		.pmodal-content
+			//- span.pclose
+			//- 	img.svgimg(src="../images/ico_close.svg")
+			div.slider-for2
+				if gimg[index]
+					each item in gimg[index][1]
+							div
+								//- img(data-lazy=item)
+								img.img-fluid.img-close(src=item)
+
+
+

@@ -1,0 +1,169 @@
+{
+
+    "site": {
+        "title": "IMAGINE - European Constitutional Imaginaries",
+        "email": "something@something.cz",
+        "scolor": ""
+    },
+    "pages" : [
+        {"link" : "about", "name" : "about"},
+        {"link" : "text", "name" : "text"},
+        {"link" : "video", "name" : "video"}
+    ],
+    "about" : {
+        "content": "<p>Evropský projekt i liberální demokracie se ocitly v krizi. Ztrácejí důvěru a nedokáží čelit proměněným globálním silám, ať už se jedná o geopolitický vliv Číny, Ruska a USA, nebo radikální islám či migrační tlak. Evropské instituce a národní politické reprezentace tvrdošíjně obhajují mocenský a ideologické uspořádání a opakují recepty 80. a 90. let, které, jak ukazuje vývoj poledních desetiletí, radikálnám tempem pozbývají platnosti. Namísto sebereflexe a přehodnocování politik hledají příčiny krize v působeni vnějších jevů jako je např. mocenské působení Ruska nebo v nedostatečně organickém přijetí Evropského projektu a jeho ideologie, který bez vyjímky označuje za populismus.</p> <p>Zejména země střední Evropy se potom stávají místem nejviditelnějšího střetu mezi krizí postiženým Evropským projektem a formulovaním různých politických, institucionálních a ideologických alternativ. I proto jsou pravidelně peskovány za nedostatky solidarity, demokracie či evropanství. Střední Evropa je přes všechny své problémy i nedostatky alternativ, které formuluje, obětí dvojích standardů evropské liberální elity. Plošná démonizace těchto alternativních projektů je stejně pošetilá jako jejich adorace. Co spojuje tzv. populistická hnutí a stávající ideologii Evropského projektu je neschopnost najít východiska, která by odpovídala potřebám Evropy 21. století.</p> Tento projekt hledá východiska odpovídající dnešním potřebám. Hlásí se k ideálu svobodné a demokratické Evropy, která žije podle zásad sociální spravedlnosti a která respektuje své nové členy stejně jako ty staré. Hledání funkčního modelu Evropského projektu vyžaduje diskusi. Musí se vést bez předsudků, oživit pozapomenuté myšlenkové tradice a především vykročit z elitního světa politických, akademických a technokratických debat. Naším posláním je takovou debatu podněcovat a organizovat."
+    },
+    "hashformal" : [
+        {"link" : "home", "name" : "#articles"},
+        {"link" : "about", "name" : "#book chapters"},
+        {"link" : "people", "name" : "#book reviews"},
+        {"link" : "events", "name" : "#reflections and essays"},
+        {"link" : "publications", "name" : "#methodology"},
+        {"link" : "people", "name" : "#interviews"},
+        {"link" : "events", "name" : "#podcasts"},
+        {"link" : "podcast", "name" : "#people"}
+    ],
+    "hashideas" : [
+        {"link" : "home", "name" : "#constitutional imaginary-concept"},
+        {"link" : "about", "name" : "#ideology"},
+        {"link" : "people", "name" : "#utopia"},
+        {"link" : "events", "name" : "#identity"},
+        {"link" : "publications", "name" : "#finality and legitimacy"},
+        {"link" : "people", "name" : "#EU constitutionalisms"},
+        {"link" : "events", "name" : "#constitutional authority"},
+        {"link" : "podcast", "name" : "#federalism"},
+        {"link" : "publications", "name" : "#supranationalism"},
+        {"link" : "people", "name" : "#statehood"},
+        {"link" : "events", "name" : "#democracy"},
+        {"link" : "podcast", "name" : "#sovereignty"},
+        {"link" : "publications", "name" : "#rule of law"},
+        {"link" : "people", "name" : "#identity"},
+        {"link" : "events", "name" : "#the other"},
+        {"link" : "podcast", "name" : "#boundaries"},
+        {"link" : "publications", "name" : "#citizenship"},
+        {"link" : "people", "name" : "#equality"},
+        {"link" : "events", "name" : "#rights"},
+        {"link" : "podcast", "name" : "#justice"},
+        {"link" : "podcast", "name" : "#solidarity"},
+        {"link" : "publications", "name" : "#political economy"},
+        {"link" : "people", "name" : "#history"},
+        {"link" : "events", "name" : "#west"},
+        {"link" : "podcast", "name" : "#post-communist Europe"},
+        {"link" : "podcast", "name" : "#Southern Europe"},
+        {"link" : "podcast", "name" : "#Europe and the global world"}
+    ],
+    
+    "projects": [
+
+        { "project": [{
+                "id" : "0",
+                "category": "people",
+                "function" : "Co-Director",
+                "name" : "Petr Agha",
+                "contact" : ["drulak@centrum.cz"],
+                "image" : "images/drulak.jpg",
+                "tags" : [
+                    {"link" : "urlnekam", "name" : "#democracy"},
+                    {"link" : "urlnekam", "name" : "#history"}
+                ]
+            }]
+        },
+        { "project": [{
+                "id" : "1",
+                "category": "people",
+                "function" : "Co-Director",
+                "name" : "Petr Agha",
+                "contact" : ["petr.agha@centrum.cz","00420 165 667 987"],
+                "image" : "images/agha.jpg",
+                "tags" : [
+                    {"link" : "urlnekam", "name" : "#democracy"},
+                    {"link" : "urlnekam", "name" : "#history"}
+                ],
+                "bgcolor" : "#9fcaf1"
+            }]
+        },
+        { "project": [{
+                "id" : "2",
+                "date": "1_12_2020",
+                "category": "video",
+                "title" : "Radikální potřeba veřejného prostoru",
+                "author" : "Pavel Karous",
+                "image" : "images/karous.jpg",
+                "date" : "_7. 8. 2020",
+                "perex" : "Krátká anotace Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipitlaboriosam, nisi ut aliquid ex commodi cons.",
+                "text" : "<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque luctus velit. Sed convallis magna eu sem. Nulla non arcu lacinia neque faucibus fringilla. Integer in sapien. Etiam commodo dui eget wisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p> <p>Nunc tincidunt ante vitae massa. Nunc auctor. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Duis condimentum augue id magna semper rutrum. Donec iaculis gravida nulla. Nullam sit amet magna in magna gravida vehicula. In rutrum. Integer lacinia. Curabitur bibendum justo non orci. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Aliquam erat volutpat. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Fusce tellus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis viverra diam non justo. Etiam posuere lacus quis dolor. Mauris elementum mauris vitae tortor.</p> <p>Integer pellentesque quam vel velit. Maecenas libero. Nullam rhoncus aliquam metus. Sed convallis magna eu sem. Duis condimentum augue id magna semper rutrum. Nullam sit amet magna in magna gravida vehicula. In rutrum. Integer lacinia. Curabitur bibendum justo non orci. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Aliquam erat volutpat. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Fusce tellus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis viverra diam non justo. Etiam posuere lacus quis dolor. Nullam rhoncus aliquam metus. Sed convallis magna eu sem. Duis condimentum augue id magna semper rutrum.</p>",
+                "bgcolor" : "#9fcaf1"
+            }]
+        },
+        { "project": [{
+                "id" : "3",
+                "date": "_10. 7. 2020",
+                "category": "video",
+                "title" : "Jak jsme se stali kolonií",
+                "image" : "images/svihlikova.jpg",
+                "author" : "Ilona Švihlíková",
+                "tags" : [
+                    {"link" : "urlnekam", "name" : "#democracy"},
+                    {"link" : "urlnekam", "name" : "#history"}
+                ],
+                "text": "May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br>",
+                "textlong": "May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br>May help us understand the limits of liberal constitutional imaginary, on whichfor those who look for alternatives.<br><br>May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br><br>May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who indispensable for those who indispensable for those who look for alternatives.<br>Help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br>",
+                "bgcolor" : "#9fcaf1"
+            }]
+        },
+        { "project": [{
+                "id" : "4",
+                "date": "_10. 12. 2020",
+                "category": "text",
+                "title" : "Globalizace a její důsledky pro společnost",
+                "author" : "Petr Drulák",
+                "image" : "images/drulak2.jpg",
+                "tags" : [
+                    {"link" : "urlnekam", "name" : "#democracy"},
+                    {"link" : "urlnekam", "name" : "#history"}
+                ],
+                "text": "May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br>",
+                "textlong": "May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br>",
+                "bgcolor" : "#9fcaf1"
+            }]
+        },
+        { "project": [{
+                "id" : "5",
+                "date": "_10. 7. 2020",
+                "category": "text",
+                "image" : "images/komarek.jpg",
+                "title" : "Politika lidských práv",
+                "author" : "Petr Agha",
+                "image" : "images/cart.png",
+                "tags" : [
+                    {"link" : "urlnekam", "name" : "#democracy"},
+                    {"link" : "urlnekam", "name" : "#history"}
+                ],
+                "text": "May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br>",
+                "textlong": "May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br>",
+                "bgcolor" : "#9fcaf1"
+            }]
+        },
+        { "project": [{
+                "id" : "10",
+                "date": "10_12_2020",
+                "category": "articles",
+                "title" : "Why read The Transformation of Europe today? On the limits of a liberal constitutional imaginary by Jan Komárek",
+                "tags" : [
+                    {"link" : "urlnekam", "name" : "#democracy"},
+                    {"link" : "urlnekam", "name" : "#history"}
+                ],
+                "text": "May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br>",
+                "textlong": "May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br>",
+                "bgcolor" : "#9fcaf1"
+            }]
+        }
+        
+        
+
+    ]
+}    
+
+
+
+ 

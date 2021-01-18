@@ -1,0 +1,11 @@
+extends layout.pug
+block body
+	body.podcast
+block content
+	main#content
+		each proj, index in projects
+			if proj.project[0].category == "people"
+				include partials/article-square.pug	
+		
+
+

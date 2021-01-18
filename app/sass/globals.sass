@@ -1,0 +1,162 @@
+@import "variables.sass"
+
+
+html, body
+	text-rendering: optimizeLegibility
+	text-rendering: optimizeLegibility
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+body
+	margin: $gap*2
+
+*
+	box-sizing: border-box
+h1,h2,h3,h4,h5
+	font-family: MunkenSansWeb-Regular
+
+.logowrap
+	display: flex
+	flex-wrap: wrap
+	justify-content: space-between
+	.logo
+		height: $navitem-font-size/1.4
+	.search
+		.navbar-nav
+			list-style: none
+			margin: 0
+			.nav-item
+				.nav-link
+	
+img
+	border: $gap/2 solid $black
+footer
+	padding-top: $gap*2
+
+b
+	font-family: IBMPlexMono-Bold
+	font-weight: bold
+
+.no-border
+	border: none
+.text-white
+	color: white
+.text-right
+	text-align: right
+.text-left
+	text-align: left
+.d-inline
+	display: inline-block
+.d-block
+	display: block
+.d-flex
+	display: flex
+.p-absolute
+	position: absolute
+	top: 0
+	left: 0
+p
+	padding: 0 1px
+
+.p-gap
+	padding: $gap
+.px-gap
+	padding: $gap 0
+.py-gap
+	padding: 0 $gap
+
+.p-0
+	padding: 0 !important
+.pt-0
+	padding-top: 0 !important
+
+.mb-gap
+	margin-bottom: $gap
+.m-0
+	margin: 0
+.mt-0
+	margin-top: 0
+.mt-2
+	margin-top: $gap*2
+.mt-1
+	margin-top: $gap 
+
+.mr-auto
+	margin-right: auto
+.text-center
+	text-align: center
+.f-right
+	float: right
+.f-left
+	float: left
+.d-inline
+	display: inline
+.d-inline-block
+	display: inline-block
+.twitter
+	position: absolute
+	top: 0
+	right: 0
+.p-relative
+	position: relative
+
+.category
+	text-transform: uppercase
+.tags
+	text-transform: lowercase
+
+.perex
+	font-size: $perex-font-size
+
+.img-fluid
+	width: 100%
+
+// .img-wrap
+// 	width: 100%
+// 	background: red
+// 	border: $gap/2 solid $black
+// .object-fit_contain
+// 	object-fit: cover
+// 	height: 400px
+
+
+
+
+
+
+.negative-gap
+	margin-left: -$gap
+	// margin-right: -$gap
+
+
+a
+	color: black
+	text-decoration: none
+	display: initial
+	// margin-bottom: $gap/2		
+	&:hover
+		margin-bottom: -$gap/2
+		border-bottom: $gap/2 solid $black
+
+
+
+
+.post
+	padding: 0 $gap
+	.post-content
+			a
+				display: inline
+				text-decoration: underline
+				&::after 
+					content: ""
+					position: absolute
+					bottom: -$gap/2
+					left: 0px
+					width: 0%
+					height: $underline-size	
+					background: black
+					// transition: all 0.3s ease
+				&:hover
+					width: 100%
+					background-color: black
+			
+

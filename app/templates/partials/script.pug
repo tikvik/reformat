@@ -1,0 +1,225 @@
+script.
+			var content = document.querySelector("#content");
+			var popiska = document.querySelector(".open-button");
+			var navbarmenu = document.querySelector(".nav_menu");
+			var modal = document.querySelector("#modal");
+			var closeButton = document.querySelector("#close-button");
+			var openButton = document.querySelector(".open-button");
+			var pinfo = document.querySelector(".pag-info");
+			var pinfo2 = document.querySelector(".pag-info2");
+
+			//- $(document).keyup(function(e) {
+			//- 	if (e.keyCode == 27) { 
+			//- 	  console.log(modal.hasClass == "closed")	
+			//- 		  	content.classList.toggle("closed");
+			//- 		  	modal.classList.toggle("closed");
+			//- 		  	pinfo.classList.toggle("closed");
+			//- 		  	pinfo2.classList.toggle("closed");
+			//- 		  	if (openButton.innerHTML === "Zobrazit text") {
+			//- 		  	    openButton.innerHTML = "Zavřít text";
+			//- 		  	  } else {
+			//- 		  	    openButton.innerHTML = "Zobrazit Text";
+			//- 		  	  }
+			//- 		   }
+			//- 		});
+			openButton.addEventListener("click", function() {
+				content.classList.toggle("closed");
+				navbarmenu.classList.toggle("closed");
+				modal.classList.toggle("closed");
+				pinfo.classList.toggle("closed");
+				pinfo2.classList.toggle("closed");
+
+				if (openButton.innerHTML === "Zobrazit text") {
+				    openButton.innerHTML = "Zavřít text";
+				  } else {
+				    openButton.innerHTML = "Zobrazit text";
+				  }
+			});
+
+			//- closeButton.addEventListener("click", function() {
+			//- 	modal.classList.toggle("closed");
+			//- 	content.classList.toggle("closed");
+			//- 	pinfo.classList.toggle("closed");
+			//- 	pinfo2.classList.toggle("closed");
+			//- 	//- popiska.classList.toggle("closed");
+			//- 	if (popiska.innerHTML === "Text") {
+			//- 	    popiska.innerHTML = "Zavřít text";
+			//- 	  } else {
+			//- 	    popiska.innerHTML = "Text";
+			//- 	  }
+			//- });
+
+			//- $('.lazy').slick({
+			//-   lazyLoad: 'ondemand',
+			//-   slidesToShow: 2,
+			//-   slidesToScroll: 2
+			//- });
+
+
+
+			$(document).ready(function(){
+
+
+				var $status = $('.pag-info');
+				var $status2 = $('.pag-info2');
+				var $slickElement = $('.carousel');
+				var $slickElement2 = $('.carousel2');
+
+				$slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+				  //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+					var i = (currentSlide ? currentSlide : 0) + 1;
+					$status.text(i + '/' + slick.slideCount);
+				});
+
+				$slickElement2.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+					//currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+					var i = (currentSlide ? currentSlide : 0) + 1;
+					$status2.text(i + '/' + slick.slideCount);
+				});
+
+
+				$('.slider-for').slick({
+					arrows: true,
+					fade: false,
+					asNavFor: '.carousel',
+					variableWidth: false,
+					focusOnSelect: false,
+					accessibility: true,
+					speed: 500,
+					initialSlide: 0,
+					verticalSwiping: false
+
+				});
+				$('.slider-for2').slick({
+					arrows: true,
+					fade: false,
+					asNavFor: '.carousel2',
+					variableWidth: false,
+					focusOnSelect: false,
+					accessibility: true,
+					speed: 500,
+					initialSlide: 0,
+					verticalSwiping: false
+
+				});
+
+				$('.carousel').slick({
+					arrows: true,
+					//- autoplay: true,
+					//- autoplaySpeed: 2000,
+					asNavFor: '.slider-for',
+					focusOnSelect: false,
+					accessibility: true,
+					speed: 500,
+					initialSlide: 0,
+					verticalSwiping: false
+				});
+
+				$('.carousel2').slick({
+					arrows: true,
+					//- autoplay: true,
+					//- autoplaySpeed: 2300,
+					asNavFor: '.slider-for2',
+					focusOnSelect: false,
+					accessibility: true,
+					speed: 500,
+					initialSlide: 0,
+					verticalSwiping: false
+				});
+
+			});
+
+
+	var pmodal = document.getElementById("myModal");
+	var btn = document.getElementById("#myBtn");
+	var span = document.getElementsByClassName("pclose")[0];
+	var color = document.getElementById("body").style.backgroundColor;
+	var body = document.getElementById("body");
+
+	var pmodal2 = document.getElementById("myModal2");
+	var btn2 = document.getElementById("#myBtn");
+	var span2 = document.getElementsByClassName("pclose")[0];
+	var color2 = document.getElementById("body").style.backgroundColor
+
+
+	$(document).keyup(function(e) {
+
+	  if (e.keyCode == 27) { 
+	  	pmodal.style.display = "none";
+	  	pmodal2.style.display = "none";
+	  	body.style.overflow = "auto"
+	   }   // esc
+	});
+	$('.img-close').click(function() {
+	   pmodal.style.display = "none";
+	});
+
+
+	
+	function mymodal() {
+		  pmodal.style.display = "flex";
+		  pmodal.style.background = color;
+		  $('.slider-for').slick('refresh');
+		  body.style.overflow = "hidden";
+
+		  var arrow = document.querySelectorAll(".slick-arrow");
+		  for (i = 0; i < arrow.length; i++) {
+		    arrow[i].removeAttribute("style");
+		  }
+	}
+	//- span.onclick = function() {
+	//-   pmodal.style.display = "none";
+	//- }
+	//- slickSlide.onclick = function() {
+	//-   pmodal.style.display = "none";
+	//- }
+	window.onclick = function(event) {
+	  if (event.target == pmodal) {
+	    pmodal.style.display = "none";
+	    body.style.overflow = "auto"
+
+	  }
+	}
+
+
+	$('.img-close').click(function() {
+	   pmodal2.style.display = "none";
+	   body.style.overflow = "auto"
+	});
+
+	function mymodal2() {
+		  pmodal2.style.display = "flex";
+		  pmodal2.style.background = color;
+		  $('.slider-for2').slick('refresh');
+		  body.style.overflow = "hidden";
+		  //- vypnutí šipek na mobilu
+		  var arrow = document.querySelectorAll(".slick-arrow");
+		  for (i = 0; i < arrow.length; i++) {
+		    arrow[i].removeAttribute("style");
+		  }
+
+	}
+	//- span.onclick = function() {
+	//-   pmodal2.style.display = "none";
+	//- }
+	//- slickSlide.onclick = function() {
+	//-   pmodal2.style.display = "none";
+	//- }
+	window.onclick = function(event) {
+	  if (event.target == pmodal2) {
+	    pmodal2.style.display = "none";
+	  }
+	}
+
+
+	$(window).on('load', function() {
+
+	//- Odstranění arrows pro slide 
+	var arrow = document.querySelectorAll(".slick-arrow");
+	for (i = 0; i < arrow.length; i++) {
+	  arrow[i].removeAttribute("style");
+	}
+
+	})
+
+

@@ -1,0 +1,10 @@
+extends layout.pug
+block body
+	body.people
+block content
+	main#content
+		each proj, index in projects
+			if proj.project[0].category == "events"
+				include partials/article.pug
+
+

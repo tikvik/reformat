@@ -1,0 +1,22 @@
+extends layout.pug
+block body
+	body.people
+block content
+	main#content
+		each proj, index in projects
+
+			if proj.project[0].category == "articles" 
+				include partials/article.pug
+		section.read-more
+			a.btn2(href="articles.html") Read more from articles
+		each proj, index in projects
+
+			if proj.project[0].category == "interviews" 
+				include partials/article.pug
+		section.read-more
+			a.btn2(href="interviews.html") Read more from interviews
+
+
+block footer
+	footer.footer.text-center
+		p.mt-1 This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No 803163) and is hosted by the University of Copenhagen.

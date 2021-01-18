@@ -1,0 +1,23 @@
+extends layout.pug
+block body
+	body#body.body_projects
+block content
+		div.grid
+			ul
+				each item, index in projects
+					//- p #{item.project[0].title}
+					li(data-aos="")
+						a(href="single"+ index +".html" style="background-color:"+projects[index].project[0].bgcolor)
+							if gimg[index]
+								img(src=gimg[index][0][0], alt="")
+							div.hovertext !{item.project[0].nickname}
+		script.
+			AOS.init({
+				offset: 300,
+				disable: function() {
+				    var maxWidth = 767;
+				    return window.innerWidth > maxWidth;
+				  }
+			})
+
+

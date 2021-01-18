@@ -1,0 +1,54 @@
+include mixins.pug
+
+
+
+header
+	div.logowrap.px-gap
+		a(href="index.html")
+			img.logo.no-border(src="/images/logo.svg")
+
+		div.search
+			ul.navbar-nav
+				li.nav-item
+					a.nav-link(href="contact.html") cz
+				li.nav-item
+					a.nav-link(href="contact.html") contacts
+				li.nav-item
+					a.nav-link(href="#") fb
+					b |
+					a.nav-link(href="#") youtube
+					b |
+					a.nav-link(href="#") twitter
+				
+
+
+
+
+
+	nav#nav.nav-menu
+		ul.navbar-nav
+			each item, index in pages
+				li.nav-item
+					a.nav-link(href=item.link + ".html", id="pageid"+index) #{item.name}
+
+
+				//- script.
+				//- 	$(document).ready(function(){
+				//- 	var page = window.location.pathname
+				//- 	var pagids = document.querySelectorAll(".nav-link");
+				//- 	console.log(page);
+				//- 	//- for (i = 0; i < pagids.length; i++) {
+				//- 		if ( page == "/projects.html"){
+				//- 				$('#pageid'+0).addClass("active")
+				//- 			}
+				//- 		if ( page == "/archive.html"){
+				//- 				$('#pageid'+1).addClass("active")
+				//- 			}
+				//- 		if ( page == "/profile.html"){
+				//- 				$('#pageid'+2).addClass("active")
+				//- 			}
+				//- 		if ( page == "/contact.html"){
+				//- 				$('#pageid'+3).addClass("active")
+				//- 			}
+						
+				//- 	});

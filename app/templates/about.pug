@@ -1,0 +1,13 @@
+extends layout.pug
+block body
+	body.about
+block content
+	main.main
+		article
+			p.mt-0.content !{about.content}
+			p
+				a.nav-link(href="contact.html") contacts →
+	.posts
+		each proj, index in projects
+			if proj.project[0].category == "people"
+				include partials/article-square.pug

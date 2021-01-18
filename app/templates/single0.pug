@@ -1,0 +1,18 @@
+extends layout.pug
+block body
+	- var i = 2;
+	body.single
+block content
+	main#content
+		article
+			h2.category.mt-0 
+				if projects[i]
+					a(href="single"+i+".html") !{projects[i].project[0].category} <br>!{projects[i].project[0].date}
+			section
+				header
+					h2.mt-0
+						a(href="single"+ index +".html") !{projects[i].project[0].title}
+				section.p-0
+					p !{projects[i].project[0].textlong}
+				
+

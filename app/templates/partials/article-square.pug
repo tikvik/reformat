@@ -1,0 +1,24 @@
+article.post.p-gap
+	header
+		if proj.project[0].image
+			img.img-fluid(src=proj.project[0].image)
+		if proj.project[0].function
+			span.perex #{proj.project[0].function}
+		h1.m-0
+			//- a(href="single"+ index +".html").underline !{proj.project[0].title}
+			a(href="single"+ index +".html") !{proj.project[0].title}
+			| !{proj.project[0].name}
+		p.perex.m-0 !{proj.project[0].author}
+		if proj.project[0].category != "people"
+			p.perex.m-0 !{proj.project[0].date} <b>| !{proj.project[0].category}</b>
+		if proj.project[0].contact
+			each item,index in proj.project[0].contact
+				if index == 0 
+					a.perex(href="mailto:#{item}") #{item} <br>
+				if index == 1
+					a.perex(href="tel:+#{item}") #{item}
+	//- if proj.project[0].text
+	//- 	section.p-0
+	//- 		p.mt-0 !{proj.project[0].text}
+	//- 	footer.p-0
+	//- 		p !{proj.project[0].date}

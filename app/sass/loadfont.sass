@@ -1,0 +1,10 @@
+@mixin font($font-family, $font-folder, $pripona) 
+	@font-face 
+		font-family: $font-family
+		src: url($font-folder+$font-family+$pripona)
+		// src: url($font-file+'.eot?#iefix') format('embedded-opentype'),url($font-file+'.woff') format('woff'),url($font-file+'Regular.ttf') format('truetype')
+		// font-weight: normal
+		// font-style: normal
+		font-size: $font-size
+		unicode-range: U+0000-07FF
+		font-display: block
