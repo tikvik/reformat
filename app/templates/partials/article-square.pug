@@ -1,7 +1,8 @@
 article.post.p-gap
 	header
 		if proj.project[0].image
-			img.img-fluid(src=proj.project[0].image)
+			a.no-underline(href="single"+ index +".html")
+				img.img-fluid(src=proj.project[0].image)
 		if proj.project[0].function
 			span.perex #{proj.project[0].function}
 		h1.m-0
@@ -17,8 +18,3 @@ article.post.p-gap
 					a.perex(href="mailto:#{item}") #{item} <br>
 				if index == 1
 					a.perex(href="tel:+#{item}") #{item}
-	//- if proj.project[0].text
-	//- 	section.p-0
-	//- 		p.mt-0 !{proj.project[0].text}
-	//- 	footer.p-0
-	//- 		p !{proj.project[0].date}

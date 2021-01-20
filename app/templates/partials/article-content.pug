@@ -1,0 +1,13 @@
+main.wrap
+	article.min-height
+		header
+			if projects[i].project[0].category == "video"
+				.video-responsive.f-left.mr-gap
+					iframe(width="560" height="315" src="http://www.youtube.com/embed/gL3QjZBNj9I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+		main
+			h1.m-0 !{projects[i].project[0].title}
+			p.perex.m-0 !{projects[i].project[0].author}
+			p.perex.m-0 !{projects[i].project[0].date}
+			br
+			p.perex.d-flex.m-0 !{projects[i].project[0].perex}
+			p !{projects[i].project[0].text}

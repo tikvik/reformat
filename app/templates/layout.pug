@@ -23,3 +23,16 @@ html(lang="cs")
 		footer.footer.text-center
 			//- img(src="images/loga.png",alt="Logos of UCPH and European research concil")
 			p.mt-1 Joint project of INSTITUTE OF INTERNATIONAL RELATIONS PRAGUE and INSTITUTE OF STATE AND LAW
+		script.
+			window.onscroll = function() {myFunction()};
+
+			var navbar = document.getElementById("navbar");
+			var sticky = navbar.offsetTop;
+
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+			    navbar.classList.add("sticky")
+			  } else {
+			    navbar.classList.remove("sticky");
+			  }
+			}

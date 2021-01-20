@@ -10,34 +10,36 @@
   </head>
   <body class="podcast"></body>
   <body>
-    <header class="wrap">
-      <div class="logowrap px-gap"><a href="index.html"><img class="logo no-border" src="/images/logo.svg"/></a>
-        <div class="search">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="contact.html">cz</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">contacts</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">fb</a><b>|</b><a class="nav-link" href="#">youtube</a><b>|</b><a class="nav-link" href="#">twitter</a></li>
-          </ul>
+    <div id="navbar">
+      <header class="wrap">
+        <div class="logowrap px-gap"><a href="index.html"><img class="logo no-border" src="/images/logo.svg"/></a>
+          <div class="search">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="contact.html">cz</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">contacts</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">fb</a><b>|</b><a class="nav-link" href="#">youtube</a><b>|</b><a class="nav-link" href="#">twitter</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <nav class="nav-menu" id="nav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="about.html" id="pageid0">about</a></li>
-          <li class="nav-item"><a class="nav-link" href="text.html" id="pageid1">text</a></li>
-          <li class="nav-item"><a class="nav-link" href="video.html" id="pageid2">video</a></li>
-        </ul>
-      </nav>
-    </header>
+        <nav class="nav-menu" id="nav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="about.html" id="pageid0">about</a></li>
+            <li class="nav-item"><a class="nav-link" href="text.html" id="pageid1">text</a></li>
+            <li class="nav-item"><a class="nav-link" href="video.html" id="pageid2">video</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
     <main class="wrap posts">
       <article class="post p-gap">
-        <header><img class="img-fluid" src="images/drulak2.jpg"/>
+        <header><a class="no-underline" href="single4.html"><img class="img-fluid" src="images/drulak2.jpg"/></a>
           <h1 class="m-0"><a href="single4.html">Globalizace a její důsledky pro společnost</a></h1>
           <p class="perex m-0">Petr Drulák</p>
           <p class="perex m-0">_10. 12. 2020 <b>| text</b></p>
         </header>
       </article>
       <article class="post p-gap">
-        <header><img class="img-fluid" src="images/cart.png"/>
+        <header><a class="no-underline" href="single5.html"><img class="img-fluid" src="images/cart.png"/></a>
           <h1 class="m-0"><a href="single5.html">Politika lidských práv</a></h1>
           <p class="perex m-0">Petr Agha</p>
           <p class="perex m-0">_10. 7. 2020 <b>| text</b></p>
@@ -48,4 +50,18 @@
   <footer class="footer text-center">
     <p class="mt-1">Joint project of INSTITUTE OF INTERNATIONAL RELATIONS PRAGUE and INSTITUTE OF STATE AND LAW</p>
   </footer>
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
 </html>
