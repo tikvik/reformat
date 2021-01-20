@@ -1,6 +1,6 @@
 @import "imports.sass"
-@include font('IBMPlexMono-Regular', '/reformat/fonts/', '.ttf');
-@include font('IBMPlexMono-Bold', '/reformat/fonts/', '.ttf');
+@include font('IBMPlexMono-Regular', '/reformat/dist/fonts/', '.ttf');
+@include font('IBMPlexMono-Bold', '/reformat/dist/fonts/', '.ttf');
 // @include font('MunkenSansWeb-Bold', '/reformat/fonts/MunkenSans/', '.woff');
 // @include font('Roboto_Mono', 'https://tikvik.github.io/rcnkskweb/dist/fonts/')
 
@@ -95,13 +95,6 @@ h3,.perex
 	padding: 0 $gap
 
 main.main
-	max-width: $wrap-width
-	padding: 0 $gap
-	@include for-size(xl)
-		max-width: 1500px
-	margin-left: auto
-	margin-right: auto
-
 	article
 		// font-size: 1.5rem
 		text-align: left
