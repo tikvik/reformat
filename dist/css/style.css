@@ -201,13 +201,17 @@ h3, .perex {
       .posts .post {
         width: 50%; } }
 
-.nav-menu {
+.wrap {
   max-width: auto;
   margin-left: auto;
   margin-right: auto; }
   @media (min-width: 1800px) {
-    .nav-menu {
+    .wrap {
       max-width: 1500px; } }
+
+.nav-menu {
+  margin-left: auto;
+  margin-right: auto; }
   .nav-menu ul.navbar-nav {
     padding: 0;
     padding-bottom: 3.6vh;
@@ -224,29 +228,29 @@ h3, .perex {
 .px-gap {
   padding: 0 1.2vh; }
 
-main.main, footer.main.footer, .wrap {
+main.main, footer.main.footer {
   max-width: auto;
   padding: 0 1.2vh;
   margin-left: auto;
   margin-right: auto; }
   @media (min-width: 1800px) {
-    main.main, footer.main.footer, .wrap {
+    main.main, footer.main.footer {
       max-width: 1500px; } }
-  main.main article, footer.main.footer article, .wrap article {
+  main.main article, footer.main.footer article {
     text-align: left;
     padding-bottom: 1.2vh;
     display: inline-block; }
-    main.main article h2, footer.main.footer article h2, main.main article .nav-menu ul.navbar-nav li.nav-item, .nav-menu ul.navbar-nav main.main article li.nav-item, footer.main.footer article .nav-menu ul.navbar-nav li.nav-item, .nav-menu ul.navbar-nav footer.main.footer article li.nav-item, .wrap article h2, .wrap article .nav-menu ul.navbar-nav li.nav-item, .nav-menu ul.navbar-nav .wrap article li.nav-item {
+    main.main article h2, footer.main.footer article h2, main.main article .nav-menu ul.navbar-nav li.nav-item, .nav-menu ul.navbar-nav main.main article li.nav-item, footer.main.footer article .nav-menu ul.navbar-nav li.nav-item, .nav-menu ul.navbar-nav footer.main.footer article li.nav-item {
       font-size: 5.28rem;
       margin-bottom: 0.24vh;
       line-height: normal; }
-  main.main .hashtags nav.nav_menu ul.navbar-nav, footer.main.footer .hashtags nav.nav_menu ul.navbar-nav, .wrap .hashtags nav.nav_menu ul.navbar-nav {
+  main.main .hashtags nav.nav_menu ul.navbar-nav, footer.main.footer .hashtags nav.nav_menu ul.navbar-nav {
     padding-top: 0; }
-    main.main .hashtags nav.nav_menu ul.navbar-nav li.nav-item, footer.main.footer .hashtags nav.nav_menu ul.navbar-nav li.nav-item, .wrap .hashtags nav.nav_menu ul.navbar-nav li.nav-item {
+    main.main .hashtags nav.nav_menu ul.navbar-nav li.nav-item, footer.main.footer .hashtags nav.nav_menu ul.navbar-nav li.nav-item {
       padding: 0.3vh 0.6vh 0.3vh 0;
       text-transform: none;
       line-height: 1; }
-    main.main .hashtags nav.nav_menu ul.navbar-nav span, footer.main.footer .hashtags nav.nav_menu ul.navbar-nav span, .wrap .hashtags nav.nav_menu ul.navbar-nav span {
+    main.main .hashtags nav.nav_menu ul.navbar-nav span, footer.main.footer .hashtags nav.nav_menu ul.navbar-nav span {
       font-family: MunkenSansWeb-Bold; }
 
 .read-more {
