@@ -2,7 +2,7 @@ extends layout.pug
 block body
 	body.people
 block content
-	main#content
+	main.wrap
 		each proj, index in projects
 			if proj.project[0].category == "articles"
 				include partials/article.pug	

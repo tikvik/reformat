@@ -1,18 +1,17 @@
 extends layout.pug
 block body
-	- var i = 2;
-	body.single
+	- var i = 0;
+	body
 block content
-	main#content
+	main.wrap
 		article
-			h2.category.mt-0 
-				if projects[i]
-					a(href="single"+i+".html") !{projects[i].project[0].category} <br>!{projects[i].project[0].date}
-			section
-				header
-					h2.mt-0
-						a(href="single"+ index +".html") !{projects[i].project[0].title}
-				section.p-0
-					p !{projects[i].project[0].textlong}
+			header
+				h1.m-0 !{projects[i].project[0].title}
+				p.perex.m-0 !{projects[i].project[0].author}
+				p.perex.m-0 !{projects[i].project[0].date}
+				br
+				p.perex.m-0 !{projects[i].project[0].perex}
+				p !{projects[i].project[0].text}
+
 				
 

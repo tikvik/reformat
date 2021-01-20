@@ -11,7 +11,10 @@
         {"link" : "video", "name" : "video"}
     ],
     "about" : {
-        "content": "<p>Evropský projekt i liberální demokracie se ocitly v krizi. Ztrácejí důvěru a nedokáží čelit proměněným globálním silám, ať už se jedná o geopolitický vliv Číny, Ruska a USA, nebo radikální islám či migrační tlak. Evropské instituce a národní politické reprezentace tvrdošíjně obhajují mocenský a ideologické uspořádání a opakují recepty 80. a 90. let, které, jak ukazuje vývoj poledních desetiletí, radikálnám tempem pozbývají platnosti. Namísto sebereflexe a přehodnocování politik hledají příčiny krize v působeni vnějších jevů jako je např. mocenské působení Ruska nebo v nedostatečně organickém přijetí Evropského projektu a jeho ideologie, který bez vyjímky označuje za populismus.</p> <p>Zejména země střední Evropy se potom stávají místem nejviditelnějšího střetu mezi krizí postiženým Evropským projektem a formulovaním různých politických, institucionálních a ideologických alternativ. I proto jsou pravidelně peskovány za nedostatky solidarity, demokracie či evropanství. Střední Evropa je přes všechny své problémy i nedostatky alternativ, které formuluje, obětí dvojích standardů evropské liberální elity. Plošná démonizace těchto alternativních projektů je stejně pošetilá jako jejich adorace. Co spojuje tzv. populistická hnutí a stávající ideologii Evropského projektu je neschopnost najít východiska, která by odpovídala potřebám Evropy 21. století.</p> Tento projekt hledá východiska odpovídající dnešním potřebám. Hlásí se k ideálu svobodné a demokratické Evropy, která žije podle zásad sociální spravedlnosti a která respektuje své nové členy stejně jako ty staré. Hledání funkčního modelu Evropského projektu vyžaduje diskusi. Musí se vést bez předsudků, oživit pozapomenuté myšlenkové tradice a především vykročit z elitního světa politických, akademických a technokratických debat. Naším posláním je takovou debatu podněcovat a organizovat."
+        "content": "Evropský projekt i liberální demokracie se ocitly v krizi. Ztrácejí důvěru a nedokáží čelit proměněným globálním silám, ať už se jedná o geopolitický vliv Číny, Ruska a USA, nebo radikální islám či migrační tlak. Evropské instituce a národní politické reprezentace tvrdošíjně obhajují mocenský a ideologické uspořádání a opakují recepty 80. a 90. let, které, jak ukazuje vývoj poledních desetiletí, radikálnám tempem pozbývají platnosti. Namísto sebereflexe a přehodnocování politik hledají příčiny krize v působeni vnějších jevů jako je např. mocenské působení Ruska nebo v nedostatečně organickém přijetí Evropského projektu a jeho ideologie, který bez vyjímky označuje za populismus. <p>Zejména země střední Evropy se potom stávají místem nejviditelnějšího střetu mezi krizí postiženým Evropským projektem a formulovaním různých politických, institucionálních a ideologických alternativ. I proto jsou pravidelně peskovány za nedostatky solidarity, demokracie či evropanství. Střední Evropa je přes všechny své problémy i nedostatky alternativ, které formuluje, obětí dvojích standardů evropské liberální elity. Plošná démonizace těchto alternativních projektů je stejně pošetilá jako jejich adorace. Co spojuje tzv. populistická hnutí a stávající ideologii Evropského projektu je neschopnost najít východiska, která by odpovídala potřebám Evropy 21. století.</p> Tento projekt hledá východiska odpovídající dnešním potřebám. Hlásí se k ideálu svobodné a demokratické Evropy, která žije podle zásad sociální spravedlnosti a která respektuje své nové členy stejně jako ty staré. Hledání funkčního modelu Evropského projektu vyžaduje diskusi. Musí se vést bez předsudků, oživit pozapomenuté myšlenkové tradice a především vykročit z elitního světa politických, akademických a technokratických debat. Naším posláním je takovou debatu podněcovat a organizovat."
+    },
+    "contact" : {
+        "content": "obecný kontakt<br><b>Mgr. Někdo Něco, Ph.D.</b><br>Na Nábřeží 45, Praha 1, 100 00<br><a href=\"mailto:reopen@reopen.cz\">reopen@reopen.cz</a><br>00420 775 987 321"
     },
     "hashformal" : [
         {"link" : "home", "name" : "#articles"},
@@ -143,22 +146,7 @@
                 "textlong": "May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br>",
                 "bgcolor" : "#9fcaf1"
             }]
-        },
-        { "project": [{
-                "id" : "10",
-                "date": "10_12_2020",
-                "category": "articles",
-                "title" : "Why read The Transformation of Europe today? On the limits of a liberal constitutional imaginary by Jan Komárek",
-                "tags" : [
-                    {"link" : "urlnekam", "name" : "#democracy"},
-                    {"link" : "urlnekam", "name" : "#history"}
-                ],
-                "text": "May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br>",
-                "textlong": "May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br>",
-                "bgcolor" : "#9fcaf1"
-            }]
         }
-        
         
 
     ]

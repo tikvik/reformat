@@ -3,14 +3,15 @@ block body
 	- var i = 2;
 	body
 block content
-	main
+	main.wrap
 		article
 			header
+				img.f-left.mr-gap(src="", width="1000px", height="600px")
 				h1.m-0 !{projects[i].project[0].title}
 				p.perex.m-0 !{projects[i].project[0].author}
 				p.perex.m-0 !{projects[i].project[0].date}
 				br
-				p.perex.m-0 !{projects[i].project[0].perex}
+				p.perex.d-flex.m-0 !{projects[i].project[0].perex}
 				p !{projects[i].project[0].text}
 
 				
