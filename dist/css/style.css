@@ -204,14 +204,14 @@ a {
 
 @font-face {
   font-family: "IBMPlexMono-Regular";
-  src: url("/reformat/dist/fonts/IBMPlexMono-Regular.ttf");
+  src: url("/reopen/dist/fonts/IBMPlexMono-Regular.ttf");
   font-size: 2.16vh;
   unicode-range: U+0000-07FF;
   font-display: block; }
 
 @font-face {
   font-family: "IBMPlexMono-Bold";
-  src: url("/reformat/dist/fonts/IBMPlexMono-Bold.ttf");
+  src: url("/reopen/dist/fonts/IBMPlexMono-Bold.ttf");
   font-size: 2.16vh;
   unicode-range: U+0000-07FF;
   font-display: block; }
