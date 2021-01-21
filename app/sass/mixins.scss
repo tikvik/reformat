@@ -1,5 +1,6 @@
 
 @mixin for-size($range) {
+  $iphone-8: 375px;
   $phone-upper-boundary: 600px;
   $tablet-portrait-upper-boundary: 900px;
   $tablet-landscape-upper-boundary: 1200px;
@@ -7,6 +8,8 @@
 
   @if $range == phone-only {
     @media (max-width: #{$phone-upper-boundary - 1}) { @content; }
+  } @else if $range == xs {
+    @media (min-width: $iphone-8) { @content; }
   } @else if $range == sm {
     @media (min-width: $phone-upper-boundary) { @content; }
   } @else if $range == md {

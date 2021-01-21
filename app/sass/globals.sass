@@ -1,4 +1,5 @@
 @import "variables.sass"
+@import "mixins"
 
 
 html, body
@@ -57,7 +58,9 @@ b
 	left: 0
 p
 	padding: 0 1px
-
+.minus-wrap
+	margin-left: -$gap
+	margin-right: -$gap
 .p-gap
 	padding: $gap
 .px-gap
@@ -147,11 +150,15 @@ p
 	width: 100%
 	margin-left: auto
 	margin-right: auto
-	padding: $gap $gap*2
+	padding: $gap*2 $gap*2 $gap $gap*2
 	background-color: $white
 
 main.wrap
 	padding-top: $gap*23
+	@include for-size(xs)
+		padding-top: $gap*18
+	@include for-size(sm)
+		padding-top: $gap*22
 
 .negative-gap
 	margin-left: -$gap

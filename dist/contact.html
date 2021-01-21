@@ -12,10 +12,9 @@
   <body>
     <div id="navbar">
       <header class="wrap">
-        <div class="logowrap px-gap"><a href="index.html"><img class="logo no-border" src="images/logo.svg"/></a>
+        <div class="logowrap"><a href="index.html"><img class="logo no-border" src="images/logo.svg"/></a>
           <div class="search">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="contact.html">cz</a></li>
+            <ul class="navbar-nav p-0">
               <li class="nav-item"><a class="nav-link" href="contact.html">contacts</a></li>
               <li class="nav-item"><a class="nav-link" href="#">fb</a><b>|</b><a class="nav-link" href="#">youtube</a><b>|</b><a class="nav-link" href="#">twitter</a></li>
             </ul>
@@ -39,4 +38,17 @@
   <footer class="footer text-center">
     <p class="mt-1">Joint project of INSTITUTE OF INTERNATIONAL RELATIONS PRAGUE and INSTITUTE OF STATE AND LAW</p>
   </footer>
+  <script>
+    var nav = document.getElementById("navbar");
+    var nav = document.getElementById("navbar");
+    var wrap = document.getElementById("wrap");
+    var pt = nav.offsetHeight + "px";
+    wrap.style.paddingTop = pt;
+    
+    window.addEventListener("resize", res);
+    function res() {
+    	var pt = nav.offsetHeight + "px";
+    	wrap.style.paddingTop = pt;		
+    }
+  </script>
 </html>

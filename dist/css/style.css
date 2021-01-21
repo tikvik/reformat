@@ -65,6 +65,10 @@ b {
 p {
   padding: 0 1px; }
 
+.minus-wrap {
+  margin-left: -1.2vh;
+  margin-right: -1.2vh; }
+
 .p-gap {
   padding: 1.2vh; }
 
@@ -160,11 +164,17 @@ p {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 1.2vh 2.4vh;
+  padding: 2.4vh 2.4vh 1.2vh 2.4vh;
   background-color: white; }
 
 main.wrap, footer.wrap.footer {
   padding-top: 27.6vh; }
+  @media (min-width: 375px) {
+    main.wrap, footer.wrap.footer {
+      padding-top: 21.6vh; } }
+  @media (min-width: 600px) {
+    main.wrap, footer.wrap.footer {
+      padding-top: 26.4vh; } }
 
 .negative-gap {
   margin-left: -1.2vh; }
@@ -267,6 +277,14 @@ h3, .perex {
       display: flex;
       font-size: 5.28rem;
       padding: 0.3vh 0 0.3vh 0; }
+      .nav-menu ul.navbar-nav li.nav-item a.nav-link {
+        font-size: 2.18182rem; }
+        @media (min-width: 375px) {
+          .nav-menu ul.navbar-nav li.nav-item a.nav-link {
+            font-size: 2.4rem; } }
+        @media (min-width: 600px) {
+          .nav-menu ul.navbar-nav li.nav-item a.nav-link {
+            font-size: 5.28rem; } }
 
 .px-gap {
   padding: 0 1.2vh; }

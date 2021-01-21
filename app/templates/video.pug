@@ -2,7 +2,8 @@ extends layout.pug
 block body
 	body.podcast
 block content
-	main.wrap.posts
-		each proj, index in projects 
-			if proj.project[0].category == "video"
-				include partials/article-square.pug
+	.wrap
+		main#wrap.minus-wrap.posts.minus-wrap
+			each proj, index in projects 
+				if proj.project[0].category == "video"
+					include partials/article-square.pug

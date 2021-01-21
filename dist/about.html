@@ -12,10 +12,9 @@
   <body>
     <div id="navbar">
       <header class="wrap">
-        <div class="logowrap px-gap"><a href="index.html"><img class="logo no-border" src="images/logo.svg"/></a>
+        <div class="logowrap"><a href="index.html"><img class="logo no-border" src="images/logo.svg"/></a>
           <div class="search">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="contact.html">cz</a></li>
+            <ul class="navbar-nav p-0">
               <li class="nav-item"><a class="nav-link" href="contact.html">contacts</a></li>
               <li class="nav-item"><a class="nav-link" href="#">fb</a><b>|</b><a class="nav-link" href="#">youtube</a><b>|</b><a class="nav-link" href="#">twitter</a></li>
             </ul>
@@ -30,28 +29,43 @@
         </nav>
       </header>
     </div>
-    <main class="wrap">
+    <main class="wrap" id="wrap">
       <article>
         <p class="mt-0 content">Evropský projekt i liberální demokracie se ocitly v krizi. Ztrácejí důvěru a nedokáží čelit proměněným globálním silám, ať už se jedná o geopolitický vliv Číny, Ruska a USA, nebo radikální islám či migrační tlak. Evropské instituce a národní politické reprezentace tvrdošíjně obhajují mocenský a ideologické uspořádání a opakují recepty 80. a 90. let, které, jak ukazuje vývoj poledních desetiletí, radikálnám tempem pozbývají platnosti. Namísto sebereflexe a přehodnocování politik hledají příčiny krize v působeni vnějších jevů jako je např. mocenské působení Ruska nebo v nedostatečně organickém přijetí Evropského projektu a jeho ideologie, který bez vyjímky označuje za populismus. <p>Zejména země střední Evropy se potom stávají místem nejviditelnějšího střetu mezi krizí postiženým Evropským projektem a formulovaním různých politických, institucionálních a ideologických alternativ. I proto jsou pravidelně peskovány za nedostatky solidarity, demokracie či evropanství. Střední Evropa je přes všechny své problémy i nedostatky alternativ, které formuluje, obětí dvojích standardů evropské liberální elity. Plošná démonizace těchto alternativních projektů je stejně pošetilá jako jejich adorace. Co spojuje tzv. populistická hnutí a stávající ideologii Evropského projektu je neschopnost najít východiska, která by odpovídala potřebám Evropy 21. století.</p> Tento projekt hledá východiska odpovídající dnešním potřebám. Hlásí se k ideálu svobodné a demokratické Evropy, která žije podle zásad sociální spravedlnosti a která respektuje své nové členy stejně jako ty staré. Hledání funkčního modelu Evropského projektu vyžaduje diskusi. Musí se vést bez předsudků, oživit pozapomenuté myšlenkové tradice a především vykročit z elitního světa politických, akademických a technokratických debat. Naším posláním je takovou debatu podněcovat a organizovat.</p>
         <p><a class="nav-link" href="contact.html">contacts →</a></p>
       </article>
     </main>
-    <div class="posts wrap">
-      <article class="post p-gap">
-        <header><a class="no-underline" href="single0.html"><img class="img-fluid" src="images/drulak.jpg"/></a><span class="perex">Co-Director</span>
-          <h1 class="m-0"><a href="single0.html"></a>Petr Agha</h1>
-          <p class="perex m-0"></p><a class="perex" href="mailto:#{item}">drulak@centrum.cz <br></a>
-        </header>
-      </article>
-      <article class="post p-gap">
-        <header><a class="no-underline" href="single1.html"><img class="img-fluid" src="images/agha.jpg"/></a><span class="perex">Co-Director</span>
-          <h1 class="m-0"><a href="single1.html"></a>Petr Agha</h1>
-          <p class="perex m-0"></p><a class="perex" href="mailto:#{item}">petr.agha@centrum.cz <br></a><a class="perex" href="tel:+#{item}">00420 165 667 987</a>
-        </header>
-      </article>
+    <div class="wrap">
+      <div class="posts minus-wrap">
+        <article class="post p-gap">
+          <header><a class="no-underline" href="single0.html"><img class="img-fluid" src="images/drulak.jpg"/></a><span class="perex">Co-Director</span>
+            <h1 class="m-0"><a href="single0.html"></a>Petr Agha</h1>
+            <p class="perex m-0"></p><a class="perex" href="mailto:#{item}">drulak@centrum.cz <br></a>
+          </header>
+        </article>
+        <article class="post p-gap">
+          <header><a class="no-underline" href="single1.html"><img class="img-fluid" src="images/agha.jpg"/></a><span class="perex">Co-Director</span>
+            <h1 class="m-0"><a href="single1.html"></a>Petr Agha</h1>
+            <p class="perex m-0"></p><a class="perex" href="mailto:#{item}">petr.agha@centrum.cz <br></a><a class="perex" href="tel:+#{item}">00420 165 667 987</a>
+          </header>
+        </article>
+      </div>
     </div>
   </body>
   <footer class="footer text-center">
     <p class="mt-1">Joint project of INSTITUTE OF INTERNATIONAL RELATIONS PRAGUE and INSTITUTE OF STATE AND LAW</p>
   </footer>
+  <script>
+    var nav = document.getElementById("navbar");
+    var nav = document.getElementById("navbar");
+    var wrap = document.getElementById("wrap");
+    var pt = nav.offsetHeight + "px";
+    wrap.style.paddingTop = pt;
+    
+    window.addEventListener("resize", res);
+    function res() {
+    	var pt = nav.offsetHeight + "px";
+    	wrap.style.paddingTop = pt;		
+    }
+  </script>
 </html>

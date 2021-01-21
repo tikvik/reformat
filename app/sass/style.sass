@@ -75,6 +75,12 @@ h3,.perex
 			font-size: $navitem-font-size
 			padding: $gap/4 0 $gap/4 0
 			a.nav-link
+				font-size: $navitem-font-size-xxs
+				@include for-size(xs)
+					font-size: $navitem-font-size-xs
+				@include for-size(sm)
+					font-size: $navitem-font-size
+
 				// padding: 1.5rem 2rem
 				// &::after 
 				// 	content: ""
