@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="css/style.css"/>
   </head>
   <body class="about"></body>
-  <body>
+  <body onLoad="res();">
     <div id="navbar">
       <header class="wrap">
         <div class="logowrap"><a href="index.html"><img class="logo no-border" src="images/logo.svg"/></a>
           <div class="search">
             <ul class="navbar-nav p-0">
+              <li class="nav-item"><a class="nav-link" href="contact.html">cz</a></li>
               <li class="nav-item"><a class="nav-link" href="contact.html">contacts</a></li>
               <li class="nav-item"><a class="nav-link" href="#">fb</a><b>|</b><a class="nav-link" href="#">youtube</a><b>|</b><a class="nav-link" href="#">twitter</a></li>
             </ul>
@@ -31,7 +32,7 @@
     </div>
     <main class="wrap" id="wrap">
       <article>
-        <p class="mt-0 content">Evropský projekt i liberální demokracie se ocitly v krizi. Ztrácejí důvěru a nedokáží čelit proměněným globálním silám, ať už se jedná o geopolitický vliv Číny, Ruska a USA, nebo radikální islám či migrační tlak. Evropské instituce a národní politické reprezentace tvrdošíjně obhajují mocenský a ideologické uspořádání a opakují recepty 80. a 90. let, které, jak ukazuje vývoj poledních desetiletí, radikálnám tempem pozbývají platnosti. Namísto sebereflexe a přehodnocování politik hledají příčiny krize v působeni vnějších jevů jako je např. mocenské působení Ruska nebo v nedostatečně organickém přijetí Evropského projektu a jeho ideologie, který bez vyjímky označuje za populismus. <p>Zejména země střední Evropy se potom stávají místem nejviditelnějšího střetu mezi krizí postiženým Evropským projektem a formulovaním různých politických, institucionálních a ideologických alternativ. I proto jsou pravidelně peskovány za nedostatky solidarity, demokracie či evropanství. Střední Evropa je přes všechny své problémy i nedostatky alternativ, které formuluje, obětí dvojích standardů evropské liberální elity. Plošná démonizace těchto alternativních projektů je stejně pošetilá jako jejich adorace. Co spojuje tzv. populistická hnutí a stávající ideologii Evropského projektu je neschopnost najít východiska, která by odpovídala potřebám Evropy 21. století.</p> Tento projekt hledá východiska odpovídající dnešním potřebám. Hlásí se k ideálu svobodné a demokratické Evropy, která žije podle zásad sociální spravedlnosti a která respektuje své nové členy stejně jako ty staré. Hledání funkčního modelu Evropského projektu vyžaduje diskusi. Musí se vést bez předsudků, oživit pozapomenuté myšlenkové tradice a především vykročit z elitního světa politických, akademických a technokratických debat. Naším posláním je takovou debatu podněcovat a organizovat.</p>
+        <p class="mt-0 content">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque luctus velit. Sed convallis magna eu sem. Nulla non arcu lacinia neque faucibus fringilla. Integer in sapien. Etiam commodo dui eget wisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque luctus velit. Sed convallis magna eu sem. Nulla non arcu lacinia neque faucibus fringilla. Integer in sapien. Etiam commodo dui eget wisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p><p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque luctus velit. Sed convallis magna eu sem. Nulla non arcu lacinia neque faucibus fringilla. Integer in sapien. Etiam commodo dui eget wisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p></p>
         <p><a class="nav-link" href="contact.html">contacts →</a></p>
       </article>
     </main>
@@ -59,9 +60,6 @@
     var nav = document.getElementById("navbar");
     var nav = document.getElementById("navbar");
     var wrap = document.getElementById("wrap");
-    
-    var pt = nav.offsetHeight + "px";
-    wrap.style.paddingTop = pt;
     
     window.addEventListener("resize", res);
     function res() {

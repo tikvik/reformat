@@ -3,7 +3,7 @@ main.wrap
 		header
 			if projects[i].project[0].category == "video"
 				.video-container.f-left.mr-gap
-					iframe(src="http://www.youtube.com/embed/gL3QjZBNj9I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+					iframe(src=projects[i].project[0].video frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 		main
 			h1.m-0 !{projects[i].project[0].title}
 			p.perex.m-0 !{projects[i].project[0].author}

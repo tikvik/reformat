@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="css/style.css"/>
   </head>
   <body></body>
-  <body>
+  <body onLoad="res();">
     <div id="navbar">
       <header class="wrap">
         <div class="logowrap"><a href="index.html"><img class="logo no-border" src="images/logo.svg"/></a>
           <div class="search">
             <ul class="navbar-nav p-0">
+              <li class="nav-item"><a class="nav-link" href="contact.html">cz</a></li>
               <li class="nav-item"><a class="nav-link" href="contact.html">contacts</a></li>
               <li class="nav-item"><a class="nav-link" href="#">fb</a><b>|</b><a class="nav-link" href="#">youtube</a><b>|</b><a class="nav-link" href="#">twitter</a></li>
             </ul>
@@ -38,7 +39,7 @@
           <p class="perex m-0">Petr Agha</p>
           <p class="perex m-0">_10. 7. 2020</p><br/>
           <p class="perex d-flex m-0"></p>
-          <p>May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.May help us understand the limits of liberal constitutional imaginary, on which. <p>Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.May help us understand the limits of liberal </p>constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br></p>
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque luctus velit. Sed convallis magna eu sem. Nulla non arcu lacinia neque faucibus fringilla. Integer in sapien. Etiam commodo dui eget wisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.<br></p>
         </main>
       </article>
     </main>
@@ -50,9 +51,6 @@
     var nav = document.getElementById("navbar");
     var nav = document.getElementById("navbar");
     var wrap = document.getElementById("wrap");
-    
-    var pt = nav.offsetHeight + "px";
-    wrap.style.paddingTop = pt;
     
     window.addEventListener("resize", res);
     function res() {
