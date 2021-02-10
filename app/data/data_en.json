@@ -1,0 +1,147 @@
+{    "site": {
+        "title": "reOpen",
+        "email": "something@something.cz",
+        "scolor": ""
+    },
+    "pages" : [
+        {"link" : "about", "name" : "about"},
+        {"link" : "text", "name" : "text"},
+        {"link" : "video", "name" : "video"}
+    ],
+    "social" : [
+        {"name" : "fb", "link" : "fb"},
+        {"name" : "youtube", "link" : "https://www.youtube.com/channel/UCoPw0JJ_UccxBEZmRzrUu4g?guided_help_flow=5"},
+        {"name" : "twitter", "link" : "https://twitter.com/reOPEN26904787"}
+    ],
+    "about" : {
+        "content": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque luctus velit. Sed convallis magna eu sem. Nulla non arcu lacinia neque faucibus fringilla. Integer in sapien. Etiam commodo dui eget wisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque luctus velit. Sed convallis magna eu sem. Nulla non arcu lacinia neque faucibus fringilla. Integer in sapien. Etiam commodo dui eget wisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p><p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque luctus velit. Sed convallis magna eu sem. Nulla non arcu lacinia neque faucibus fringilla. Integer in sapien. Etiam commodo dui eget wisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>"
+    },
+    "contact" : {
+        "content": "obecný kontakt<br><b>Mgr. Někdo Něco, Ph.D.</b><br>Na Nábřeží 45, Praha 1, 100 00<br><a href=\"mailto:reopen@reopen.cz\">reopen@reopen.cz</a><br>00420 775 987 321"
+    },
+    "hashformal" : [
+        {"link" : "home", "name" : "#articles"},
+        {"link" : "about", "name" : "#book chapters"},
+        {"link" : "people", "name" : "#book reviews"},
+        {"link" : "events", "name" : "#reflections and essays"},
+        {"link" : "publications", "name" : "#methodology"},
+        {"link" : "people", "name" : "#interviews"},
+        {"link" : "events", "name" : "#podcasts"},
+        {"link" : "podcast", "name" : "#people"}
+    ],
+    "hashideas" : [
+        {"link" : "home", "name" : "#constitutional imaginary-concept"},
+        {"link" : "about", "name" : "#ideology"},
+        {"link" : "people", "name" : "#utopia"},
+        {"link" : "events", "name" : "#identity"},
+        {"link" : "publications", "name" : "#finality and legitimacy"},
+        {"link" : "people", "name" : "#EU constitutionalisms"},
+        {"link" : "events", "name" : "#constitutional authority"},
+        {"link" : "podcast", "name" : "#federalism"},
+        {"link" : "publications", "name" : "#supranationalism"},
+        {"link" : "people", "name" : "#statehood"},
+        {"link" : "events", "name" : "#democracy"},
+        {"link" : "podcast", "name" : "#sovereignty"},
+        {"link" : "publications", "name" : "#rule of law"},
+        {"link" : "people", "name" : "#identity"},
+        {"link" : "events", "name" : "#the other"},
+        {"link" : "podcast", "name" : "#boundaries"},
+        {"link" : "publications", "name" : "#citizenship"},
+        {"link" : "people", "name" : "#equality"},
+        {"link" : "events", "name" : "#rights"},
+        {"link" : "podcast", "name" : "#justice"},
+        {"link" : "podcast", "name" : "#solidarity"},
+        {"link" : "publications", "name" : "#political economy"},
+        {"link" : "people", "name" : "#history"},
+        {"link" : "events", "name" : "#west"},
+        {"link" : "podcast", "name" : "#post-communist Europe"},
+        {"link" : "podcast", "name" : "#Southern Europe"},
+        {"link" : "podcast", "name" : "#Europe and the global world"}
+    ],
+    
+    "projects": [        { "project": [{
+                "id" : "0",
+                "category": "people",
+                "function" : "Co-Director",
+                "name" : "Petr Agha",
+                "contact" : ["drulak@centrum.cz"],
+                "image" : "images/drulak.jpg",
+                "tags" : [
+                    {"link" : "urlnekam", "name" : "#democracy"},
+                    {"link" : "urlnekam", "name" : "#history"}
+                ]
+            }]
+        },
+        { "project": [{
+                "id" : "1",
+                "category": "people",
+                "function" : "Co-Director",
+                "name" : "Petr Agha",
+                "contact" : ["petr.agha@centrum.cz","00420 165 667 987"],
+                "image" : "images/agha.jpg",
+                "tags" : [
+                    {"link" : "urlnekam", "name" : "#democracy"},
+                    {"link" : "urlnekam", "name" : "#history"}
+                ],
+                "bgcolor" : "#9fcaf1"
+            }]
+        },
+        { "project": [{
+                "id" : "2",
+                "date": "1_12_2020",
+                "category": "video",
+                "title" : "Technokrati, liberálové, socialisti a Evropa",
+                "author" : "Pavel Karous",
+                "image" : "images/karous.jpg",
+                "video" : "http://www.youtube.com/embed/gL3QjZBNj9I",
+                "date" : "_7. 8. 2020",
+                "perex" : "Krátká anotace Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipitlaboriosam, nisi ut aliquid ex commodi cons.",
+                "text" : "Český pohled na evropskou integraci se vyvíjí, dnes je podstatně kritičtější než v období vstupu do Evropské unie, jakkoliv ani tehdy nevládlo přehnané proevropské nadšení. Tento vývoj reaguje na kroky EU, nicméně tyto kroky jsou hodnoceny z perspektiv, které jsou dlouhodobě usazeny v české společnosti. Problém EU nám přiblíží tři z těchto perspektiv, které pro zjednodušení označuji jako liberální, socialistickou a technokratickou.   Liberální pozice klade důraz na svobodného jednotlivce a jeho podnikavost, socialistická hájí sociálně spravedlivou společnost. Každá přichází s vlastní představou o žádoucím uspořádání společnosti a jejích institucích. Naopak technokracie vychází z odbornosti a přijímá jakoukoliv ideologii, pokud umožňuje řešit praktické problémy produkce zboží a služeb, jejich distribuce, veřejné správy, veřejných služeb, vnitřní a vnější bezpečnosti či justice. V českém prostředí postrádajícím hlubší politické tradice je technokratický či odbornický přístup všeobecně oceňován, zatímco ideologický často naráží na nedůvěru.  Zatímco vstup do EU se mohl opřít o solidní podporu u každé ze tří zmíněných pozic, v následujícím období oslabuje bruselská orientace socialistů a objevuje se technokracie kritická vůči Bruselu. Především rostoucí pochybnosti technokracie o životaschopnosti EU přináší v českém prostředí zásadní zpochybnění legitimity evropského projektu.",
+                "bgcolor" : "#9fcaf1"
+            }]
+        },
+        { "project": [{
+                "id" : "3",
+                "date": "_10. 7. 2020",
+                "category": "video",
+                "title" : "Jak jsme se stali kolonií",
+                "image" : "images/svihlikova.jpg",
+                "author" : "Ilona Švihlíková",
+                "video" : "https://www.youtube.com/embed/0xasLYV3tHs",
+                "tags" : [
+                    {"link" : "urlnekam", "name" : "#democracy"},
+                    {"link" : "urlnekam", "name" : "#history"}
+                ],                "perex" : "Krátká anotace Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut enim ad minima veniam, quis nostrum.",
+                "text": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque luctus velit. Sed convallis magna eu sem. Nulla non arcu lacinia neque faucibus fringilla. Integer in sapien. Etiam commodo dui eget wisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.<br>",
+                "textlong": "May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br>May help us understand the limits of liberal constitutional imaginary, on whichfor those who look for alternatives.<br><br>May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br><br>May help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who indispensable for those who indispensable for those who look for alternatives.<br>Help us understand the limits of liberal constitutional imaginary, on which Transformation builds and which it helped to establish in the 1990s. Now, when ‘Western liberalism’ is on retreat, such critical reading may be indispensable for those who look for alternatives.<br>",
+                "bgcolor" : "#9fcaf1"
+            }]
+        },
+        { "project": [{
+                "id" : "4",
+                "date": "_10. 12. 2020",
+                "category": "text",
+                "title" : "Technocracy that doesn’t work. A perspective on the EU",
+                "author" : "Petr Drulák",
+                "image" : "images/drulak2.jpg",
+                "text": "<p>The Czech opinion about Brussels has been slowly improving from its all-time low in 2015 when only 29% of Czech citizens trusted in the EU according to the Eurobarometer. Four years later their trust increased by 10% but it remains among the lowest in the EU, and it is the lowest in the group of four Visegrad countries, which has been a long-term trend. This lack of trust cannot be put down to populism, nationalism or illiberalism, though these tendencies have been diagnosed by many observers in Central Europe for some time. None of these features are especially salient in Czechia if the situation there is compared with those elsewhere. Nor can it be explained by economic problems as the Czech economy has been growing and the unemployment rate has remained low. Moreover, the Czech political debate does not come up with any ideological or geopolitical alternatives to the EU.</p><p>Thus, there is no simple explanation for the lack of support to the EU in Czechia. The argument that I advance does not provide a full explanation of this puzzle. But it brings to light a social fact that has been so far neglected in the debate about the merits of the EU in the eyes of Central Europeans. The argument is about European technocracy. However, this is not the usual claim that the EU is too technocratic to satisfy the democratic needs of the citizens.</p><p>Instead of that, I argue that the EU does not satisfy Czech technocratic expectations. It is not that the EU is not trusted because it is too technocratic but because its technocracy fails. First, I explain that the technocratic ideology is deeply embedded in the Czech society, having played an important role under the communist rule. I then show that after 1989 the return to Europe reinvigorated this technocracy, providing it with an additional legitimacy while promoting the EU on its technocratic merits. However, it is also a perceived lack of technocratic merits that gives rise to an important technocratic opposition against Brussels.</p><h2>Communist technocracy</h2><p>Technocracy can be defined in numerous ways. It is often understood as a rule of experts in opposition to democracy or ideology. In this respect, scholars usually observe it with a critical eye when looking at liberal democracies as it isolates decision making from a democratic oversight. On the other hand, it is seen more favourably in non-democratic systems, where it may present a competent alternative to ideological foolishness.</p><p>However, technocracy can also be defined in a neutral way as a problem-solving approach to political and social issues that avoids opening deep normative questions as it takes these for granted. It is compatible with a variety of ideologies and political programs, but it can also present a political program of its own. Therefore, technocracy, as I understand it, defines an approach to the world rather than a feature of a political system. Moreover, it defines a social group of technocrats who share this perspective and who participate in governance structures and public life.</p><p>Technocracy played an important role in communist Czechoslovakia. There technocrats were living in a symbiosis with the official ideology of Marxism-Leninism, sharing its main tenets. They were supposed to solve practical problems that were arising when these tenets were put into operation. In the 1950s they took for granted what they learned in Moscow, where the top technocrats studied. They did their best to transfer what they saw as a superior Soviet experience to Czechoslovakia to build up a communist society there.</p><p>However, their field experience taught them better. Especially in economy, they were discovering that the Soviet precepts and methods do not bring about more efficiency and prosperity, quite the contrary. In the 1960s, these Soviet-trained economic experts (e.g. Ota Šik, the economic reformist-in-chief in 1968) pointed to the failings of the economic models that many of them previously implemented.</p><p>However, they did not call for political changes and they did not put into doubt the basic principles of the socialist economy. Reformist technocrats considered socialism good; they just wanted to repair it. Their technocratic problem-solving brought about economic reform proposals that became central to the reformist communist agenda of 1968. Their practical arguments enjoyed a broad popular legitimacy in Czechoslovakia but they clashed with the advocates of ideological purity both at home and, more importantly, in Moscow. The ideologues were afraid that the proposed reforms would produce a drift away from socialism and the Soviet block and thus they felt obliged to intervene to suppress them.</p><p>Even though the ranks of the technocracy were purged after the Soviet intervention of 1968, the economic problems remained and the rulers needed technocracy to deal with them. In the late 1980s it was Moscow herself that tried to promote reforms that would save socialism and that were ideologically related with the Czechoslovak reformist program of twenty years before. However, these initiatives did not find much support in Prague. The Czechoslovak Communist Party leadership derived its legitimacy from the suppression of the 1968 reforms and it was only with utter reluctance that it adopted parts of perestroika. More importantly, the technocracy no longer had any faith in the reform of socialism. They paid lip service to the official ideology, and they made references to the opportunities of Perestroika but they looked to the West for guidance.</p><h2>Transition and accession technocracy</h2><p>The year of 1989 gave an enormous boost to the Czechoslovak technocracy. The discourse of the new elite that became widely adopted by society pictured the previous communist régime as criminal and incompetent. The new régime and its elite constructed its identity against both of these evils. Thus, former dissidents who were victims of communist crimes were supposed to guarantee its respect for human rights, democracy and its moral spine in general. However, they were not able to guarantee a competent rule as they did not have any administrative experience.</p><p>That was the task for the post-1989 technocracy. The government by experts was seen as an enormous progress from the previous governments of party apparatchiks. All these experts belonged to the communist technocracy, as there were no other experts after all. While most of them used to be members of the Communist Party and all of them used to work either in the official expert institutions or in the state companies, they also had first-hand experience with the failings of the centrally planned economy they were often in charge of. Therefore, they did not have to think twice before turning coats. They all became apostles of liberal capitalism, engineering the country’s economic transition, which focused on a fast and wholesale privatisation. Some technocrats stayed in the state administration while others, using their information and networks, grabbed at the privatisation opportunities and became businesspeople.</p><p>Either way the technocracy became the dominant political and ideological force of the Czech transition in the 1990s. It was represented by the neoliberal Civic Democratic Party led by Václav Klaus, who used to work in official research institutes in the 1970s and 1980s. Former dissidents either joined the technocratic project or were completely sidelined as they did not have much to offer during the transition period. Václav Havel cut a lonely figure; he was the president of the country but without any real clout in domestic politics.</p><p>The 1990s technocracy was based on the imitation of the Western models that enjoyed an enormous popularity in the public mind. Anything coming from the West was deemed superior to anything local. The slogan of a <em>return to Europe</em> that gave guidance to the Czech politics for almost two decades expressed these beliefs. However, gradually a split opened inside the technocracy on whom to imitate. The technocracy in charge of the transition looked up to the Anglo-American model of capitalism, worshipping Reagan, Thatcher, Hayek and Friedman. They did not pay much respect to Continental European models, which they suspected of being too close to socialism and therefore dysfunctional. In Europe they appreciated the Common Market but not much beyond that.</p><p>On the other hand, the preparation for the EU membership enhanced an alternative source of models that were centered on Brussels and on Germany as the EU’s leading power and the principal force behind its Eastern enlargement. As the EU accession was getting closer, the accession technocracy was gaining ground. Politically, it was represented by the Czech Social Democratic Party led by Miloš Zeman, an economist who, like Václav Klaus, was working in official research institutes in the 1970s and 1980s. It was mainly due to the EU presence that the accession technocracy became dominant during the accession and in the years that followed.</p><h2>Populist technocracy</h2><p>Despite the dominance of the accession technocracy that absorbed parts of the transition technocracy, the latter did not disappear. It was nourishing the Czech reluctance to join the common European currency on the grounds that its very construction is economically flawed. Later, the eurozone crisis, the ordeal of Greece and Italy, as well as the absurdity of Brussels’ demands for Slovak solidarity with the richer Greece seemed to confirm this analysis.</p><p>Moreover, the accession technocracy split up and the new stream of a populist technocracy arose. The split started to open with the eurozone crisis, which bred doubts about the competence of Brussels’ management, but it was fully accomplished by the migration crisis in 2015. The inability to secure the EU external borders as well as attempts by the European Commission to distribute migrants among the EU members according to the centrally set quotas raised an incomprehension that was both emotional and practical. What especially hurt was that the objections against the scheme that pointed to its impracticality were met with ideological, human rights-based lecturing from Brussels and Berlin. They were seen as overstepping their roles. Even though a part of the accession technocracy stuck to the usual line of Brussels knows best, other members of it became alienated.</p><p>However, by that time a new type of technocracy had been growing h2 for some time. It came from a multifaceted anti-corruption movement that was dusting off the Velvet Revolution calls for a government by experts rather than by incompetent and corrupt politicians. This time, though, the political movement that started a campaign based on the need for expertise was sponsored and led by Andrej Babiš, a Slovak billionaire who worked in a Czechoslovak foreign trade company in the 1980s and got rich in the wild privatisation period of the 1990s. Its ideology is based on Babiš’s belief that the government should be run like a business, or more specifically, like his own business empire, where the owner keeps control of everything. This populist technocracy is eclectic about the models to be imitated but they mostly come from business experience. Even though this perspective is not necessarily Eurosceptical as it recognises European economies of scale, Brussels’ bargaining power and networking opportunities, it will frequently clash with the EU, whose institutional logic differs from that of business. This then breeds a criticism of Brussels as incompetent.</p><h2>Conclusions</h2><p>The EU has been criticised many times for being too technocratic. On the other hand, the most important criticism that has been levelled against Brussels in the Czech debate points to the failings of its technocracy, such as the flawed design of the common currency, the mismanagement of the migration crisis or a general incompetence. This insight may not have an unambiguous moral. But given that a functioning technocracy is rather appreciated, the European Commission should perhaps focus on the technocratic management for which it was designed. On the other hand, it should restrain its ambition to enhance its own political role or to promote its own version of European values as the Commission has been increasingly doing in recent years.</p>",
+                     "bgcolor" : "#9fcaf1"
+            }]
+        },
+        { "project": [{
+                "id" : "5",
+                "date": "_10. 7. 2020",
+                "category": "text",
+                "image" : "images/komarek.jpg",
+                "title" : "Politika lidských práv",
+                "author" : "Petr Agha",
+                "image" : "images/cart.png",
+                "tags" : [
+                    {"link" : "urlnekam", "name" : "#democracy"},
+                    {"link" : "urlnekam", "name" : "#history"}
+                ],
+                "text": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque luctus velit. Sed convallis magna eu sem. Nulla non arcu lacinia neque faucibus fringilla. Integer in sapien. Etiam commodo dui eget wisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.<br>"
+            }]
+        }
+            ]
+}     

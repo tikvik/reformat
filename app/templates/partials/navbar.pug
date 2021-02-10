@@ -10,9 +10,9 @@ include mixins.pug
 			div.search
 				ul.navbar-nav.p-0
 					li.nav-item
-						a.nav-link(href="contact.html") cz
+						a.nav-link(href="/EN/index.html") #{site.switch}
 					li.nav-item
-						a.nav-link(href="contact.html") contacts
+						a.nav-link(href="contact.html") #{site.contact}
 					li.nav-item
 						each item, index in social
 							a.nav-link(href=item.link) #{item.name}

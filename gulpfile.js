@@ -84,7 +84,7 @@ function build() {
 			}
 
 		}))
-		.pipe(gulp.dest('dist/'));
+		.pipe(gulp.dest('dist'));
 }
 
 
