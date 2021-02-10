@@ -4,7 +4,8 @@
         "contact": "kontakt",
         "stylelink": "css/style.css",
         "current_lang": "cz",
-        "switch": "en"
+        "switch": "en",
+        "footer": "Společný projekt INSTITUTU MEZINÁRODNÍCH VZTAHŮ PRAHA a INSTITUTU STÁTU A PRÁVA"
     },
     "pages" : [
         {"link" : "about", "name" : "o nás"},
