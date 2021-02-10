@@ -63,7 +63,8 @@ b {
   left: 0; }
 
 p {
-  padding: 0 1px; }
+  padding: 0 1px;
+  margin-top: 0; }
 
 .minus-wrap {
   margin-left: -1.2vh;

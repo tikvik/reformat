@@ -63,7 +63,8 @@ b {
   left: 0; }
 
 p {
-  padding: 0 1px; }
+  padding: 0 1px;
+  margin-top: 0; }
 
 .minus-wrap {
   margin-left: -1.2vh;
@@ -259,7 +260,7 @@ h3, .perex {
         width: 50%; } }
 
 .wrap {
-  max-width: auto;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto; }
   @media (min-width: 1800px) {

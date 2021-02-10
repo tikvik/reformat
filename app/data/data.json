@@ -1,5 +1,5 @@
 {    "site": {
-        "title": "IMAGINE - European Constitutional Imaginaries",
+        "title": "reOpen",
         "email": "something@something.cz",
         "scolor": ""
     },
@@ -7,6 +7,11 @@
         {"link" : "about", "name" : "about"},
         {"link" : "text", "name" : "text"},
         {"link" : "video", "name" : "video"}
+    ],
+    "social" : [
+        {"name" : "fb", "link" : "fb"},
+        {"name" : "youtube", "link" : "https://www.youtube.com/channel/UCoPw0JJ_UccxBEZmRzrUu4g?guided_help_flow=5"},
+        {"name" : "twitter", "link" : "https://twitter.com/reOPEN26904787"}
     ],
     "about" : {
         "content": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque luctus velit. Sed convallis magna eu sem. Nulla non arcu lacinia neque faucibus fringilla. Integer in sapien. Etiam commodo dui eget wisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque luctus velit. Sed convallis magna eu sem. Nulla non arcu lacinia neque faucibus fringilla. Integer in sapien. Etiam commodo dui eget wisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p><p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque luctus velit. Sed convallis magna eu sem. Nulla non arcu lacinia neque faucibus fringilla. Integer in sapien. Etiam commodo dui eget wisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>"

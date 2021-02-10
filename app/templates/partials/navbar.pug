@@ -14,11 +14,11 @@ include mixins.pug
 					li.nav-item
 						a.nav-link(href="contact.html") contacts
 					li.nav-item
-						a.nav-link(href="#") fb
-						b  | 
-						a.nav-link(href="#") youtube
-						b  | 
-						a.nav-link(href="#") twitter
+						each item, index in social
+							a.nav-link(href=item.link) #{item.name}
+							if index < social.length-1
+								b  | 
+						
 				
 
 
