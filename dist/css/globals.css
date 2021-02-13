@@ -1,18 +1,3 @@
-html, body {
-  text-rendering: optimizeLegibility;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-body {
-  margin: 2.4vh; }
-
-* {
-  box-sizing: border-box; }
-
-h1, h2, h3, h4, h5 {
-  font-family: MunkenSansWeb-Regular; }
-
 h1 {
   font-size: 30px;
   font-size: 1.875em; }
@@ -36,6 +21,21 @@ h5 {
 h6 {
   font-size: -10px;
   font-size: -0.625em; }
+
+html, body {
+  text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  margin: 2.4vh; }
+
+* {
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5 {
+  font-family: MunkenSansWeb-Regular; }
 
 .logowrap {
   display: flex;

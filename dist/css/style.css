@@ -1,17 +1,26 @@
-html, body {
-  text-rendering: optimizeLegibility;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+h1 {
+  font-size: 30px;
+  font-size: 1.875em; }
 
-body {
-  margin: 2.4vh; }
+h2, .nav-menu ul.navbar-nav li.nav-item {
+  font-size: 22px;
+  font-size: 1.375em; }
 
-* {
-  box-sizing: border-box; }
+h3 {
+  font-size: 14px;
+  font-size: 0.875em; }
 
-h1, h2, .nav-menu ul.navbar-nav li.nav-item, h3, h4, h5 {
-  font-family: MunkenSansWeb-Regular; }
+h4 {
+  font-size: 6px;
+  font-size: 0.375em; }
+
+h5 {
+  font-size: -2px;
+  font-size: -0.125em; }
+
+h6 {
+  font-size: -10px;
+  font-size: -0.625em; }
 
 h1 {
   font-size: 30px;
@@ -36,6 +45,21 @@ h5 {
 h6 {
   font-size: -10px;
   font-size: -0.625em; }
+
+html, body {
+  text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  margin: 2.4vh; }
+
+* {
+  box-sizing: border-box; }
+
+h1, h2, .nav-menu ul.navbar-nav li.nav-item, h3, h4, h5 {
+  font-family: MunkenSansWeb-Regular; }
 
 .logowrap {
   display: flex;
