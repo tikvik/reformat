@@ -319,7 +319,7 @@ h3, .perex {
         width: 50%; } }
 
 .wrap {
-  max-width: 1150px;
+  max-width: 140vh;
   margin-left: auto;
   margin-right: auto; }
   @media (min-width: 1800px) {
