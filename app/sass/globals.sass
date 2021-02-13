@@ -15,6 +15,21 @@ body
 h1,h2,h3,h4,h5
 	font-family: MunkenSansWeb-Regular
 
+
+$headings : h1 h2 h3 h4 h5 h6
+$font-size-base : 16px
+
+$font-size-upper : 30px
+$font-size-dec : 8px
+@each $heading in $headings
+  #{$heading}
+    font-size : $font-size-upper
+    font-size : ($font-size-upper / $font-size-base) + em
+  $font-size-upper : $font-size-upper - $font-size-dec
+
+
+
+
 .logowrap
 	display: flex
 	flex-wrap: wrap

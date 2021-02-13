@@ -12,7 +12,7 @@
   <body onLoad="res();">
     <div id="navbar">
       <header class="wrap">
-        <div class="logowrap"><a class="no-underline" href="index.html"><img class="logo no-border" src="images/logo.svg"/></a>
+        <div class="logowrap" id="logowrap"><a class="no-underline" href="index.html"><img class="logo no-border" src="images/logo.svg"/></a>
           <div class="search">
             <ul class="navbar-nav p-0">
               <li class="nav-item"><a class="nav-link" href="EN/index.html">en</a></li>
@@ -50,13 +50,71 @@
   </footer>
   <script>
     var nav = document.getElementById("navbar");
-    var nav = document.getElementById("navbar");
+    var logowrap = document.getElementById("logowrap");
     var wrap = document.getElementById("wrap");
-    
+    var pt = nav.offsetHeight + "px";
+    var pt2 = logowrap.offsetHeight;
+    console.log(logowrap.offsetHeight)
     window.addEventListener("resize", res);
     function res() {
-    	var pt = nav.offsetHeight + "px";
-    	wrap.style.paddingTop = pt;		
+    	wrap.style.paddingTop = pt;
+    
     }
+    
+    (function(){
+    
+      var doc = document.documentElement;
+      var w = window;
+    
+      var prevScroll = w.scrollY || doc.scrollTop;
+      var curScroll;
+      var direction = 0;
+      var prevDirection = 0;
+    
+      
+      var checkScroll = function() {
+    
+        /*
+        ** Find the direction of scroll
+        ** 0 - initial, 1 - up, 2 - down
+        */
+    
+        curScroll = w.scrollY || doc.scrollTop;
+        if (curScroll > prevScroll) { 
+          //scrolled up
+          direction = 2;
+        }
+        else if (curScroll < prevScroll) { 
+          //scrolled down
+          direction = 1;
+        }
+    
+        if (direction !== prevDirection) {
+          toggleHeader(direction, curScroll);
+        }
+        
+        prevScroll = curScroll;
+      };
+    
+      var toggleHeader = function(direction, curScroll) {
+      var header = document.getElementById('navbar');
+    
+        if (direction === 2 && curScroll > 52) { 
+          
+          //replace 52 with the height of your header in px
+    
+          header.style.top = -pt2-30+"px";
+    
+          prevDirection = direction;
+        }
+        else if (direction === 1) {
+          header.style.top = 0;
+          prevDirection = direction;
+        }
+      };
+      
+      window.addEventListener('scroll', checkScroll);
+    
+    })();
   </script>
 </html>
