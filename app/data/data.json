@@ -5,7 +5,7 @@
         "stylelink": "css/style.css",
         "current_lang": "cz",
         "switch": "en",
-        "footer": "Společný projekt INSTITUTU MEZINÁRODNÍCH VZTAHŮ PRAHA a INSTITUTU STÁTU A PRÁVA"
+        "footer": "Společný projekt <a href=\"https://www.iir.cz\">INSTITUTU MEZINÁRODNÍCH VZTAHŮ PRAHA</a> a <a href=\"https://www.ilaw.cas.cz\">INSTITUTU STÁTU A PRÁVA</a>"
     },
     "pages" : [
         {"link" : "about", "name" : "o nás"},

@@ -53,6 +53,27 @@ h3,.perex
 		margin-bottom: $gap*3
 		@include for-size(md)
 			width: 50%
+			padding: 0 $gap
+
+		
+
+		.post-content
+			a
+				display: inline
+				text-decoration: underline
+				&::after 
+					content: ""
+					position: absolute
+					bottom: -$gap/2
+					left: 0px
+					width: 0%
+					height: $underline-size	
+					background: black
+					// transition: all 0.3s ease
+				&:hover
+					width: 100%
+					background-color: black
+				
 
 
 
@@ -76,7 +97,9 @@ body:not(.single)
 		width: 100%
 		margin-left: auto
 		margin-right: auto
-		padding: $gap*2 $gap*2 $gap $gap*2
+		padding: $gap*2 $gap*3 $gap $gap*3
+		@include for-size(sm)
+			padding: $gap*2 $gap*2 $gap $gap*2
 		background-color: $white
 
 

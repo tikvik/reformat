@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5 {
   flex-wrap: wrap;
   justify-content: space-between; }
   .logowrap .logo {
-    height: 3.77143rem; }
+    height: 3.45714rem; }
   .logowrap .search .navbar-nav {
     list-style: none;
     margin: 0; }
@@ -203,20 +203,3 @@ a {
   .no-underline:hover {
     margin-bottom: 0.6vh;
     border-bottom: none !important; }
-
-.post {
-  padding: 0 1.2vh; }
-  .post .post-content a {
-    display: inline;
-    text-decoration: underline; }
-    .post .post-content a::after {
-      content: "";
-      position: absolute;
-      bottom: -0.6vh;
-      left: 0px;
-      width: 0%;
-      height: 4px;
-      background: black; }
-    .post .post-content a:hover {
-      width: 100%;
-      background-color: black; }

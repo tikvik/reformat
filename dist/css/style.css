@@ -66,7 +66,7 @@ h1, h2, .nav-menu ul.navbar-nav li.nav-item, h3, h4, h5 {
   flex-wrap: wrap;
   justify-content: space-between; }
   .logowrap .logo {
-    height: 3.77143rem; }
+    height: 3.45714rem; }
   .logowrap .search .navbar-nav {
     list-style: none;
     margin: 0; }
@@ -228,23 +228,6 @@ a {
     margin-bottom: 0.6vh;
     border-bottom: none !important; }
 
-.post {
-  padding: 0 1.2vh; }
-  .post .post-content a {
-    display: inline;
-    text-decoration: underline; }
-    .post .post-content a::after {
-      content: "";
-      position: absolute;
-      bottom: -0.6vh;
-      left: 0px;
-      width: 0%;
-      height: 4px;
-      background: black; }
-    .post .post-content a:hover {
-      width: 100%;
-      background-color: black; }
-
 @font-face {
   font-family: "IBMPlexMono-Regular";
   src: url("/reopen/dist/fonts/IBMPlexMono-Regular.ttf");
@@ -281,7 +264,7 @@ h1, h2, .nav-menu ul.navbar-nav li.nav-item, h3, h4, h5, .nav-link {
   top: -50px !important; }
 
 h2.subtitle, .nav-menu ul.navbar-nav li.subtitle.nav-item {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   padding: 1.2vh 0 2.04vh 0;
   font-weight: bold; }
 
@@ -297,7 +280,22 @@ h3, .perex {
     margin-bottom: 3.6vh; }
     @media (min-width: 900px) {
       .posts .post {
-        width: 50%; } }
+        width: 50%;
+        padding: 0 1.2vh; } }
+    .posts .post .post-content a {
+      display: inline;
+      text-decoration: underline; }
+      .posts .post .post-content a::after {
+        content: "";
+        position: absolute;
+        bottom: -0.6vh;
+        left: 0px;
+        width: 0%;
+        height: 4px;
+        background: black; }
+      .posts .post .post-content a:hover {
+        width: 100%;
+        background-color: black; }
 
 .wrap {
   max-width: 140vh;
@@ -314,8 +312,11 @@ body:not(.single) #navbar {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 2.4vh 2.4vh 1.2vh 2.4vh;
+  padding: 2.4vh 3.6vh 1.2vh 3.6vh;
   background-color: white; }
+  @media (min-width: 600px) {
+    body:not(.single) #navbar {
+      padding: 2.4vh 2.4vh 1.2vh 2.4vh; } }
 
 .nav-menu {
   margin-left: auto;
@@ -329,16 +330,16 @@ body:not(.single) #navbar {
     .nav-menu ul.navbar-nav li.nav-item {
       position: relative;
       display: flex;
-      font-size: 5.28rem;
+      font-size: 4.84rem;
       padding: 0.3vh 0 0.3vh 0; }
       .nav-menu ul.navbar-nav li.nav-item a.nav-link {
-        font-size: 2.18182rem; }
+        font-size: 2rem; }
         @media (min-width: 375px) {
           .nav-menu ul.navbar-nav li.nav-item a.nav-link {
-            font-size: 2.4rem; } }
+            font-size: 2.2rem; } }
         @media (min-width: 600px) {
           .nav-menu ul.navbar-nav li.nav-item a.nav-link {
-            font-size: 5.28rem; } }
+            font-size: 4.84rem; } }
 
 .px-gap {
   padding: 0 1.2vh; }
@@ -348,7 +349,7 @@ main.main article, footer.main.footer article {
   padding-bottom: 1.2vh;
   display: inline-block; }
   main.main article h2, footer.main.footer article h2, main.main article .nav-menu ul.navbar-nav li.nav-item, .nav-menu ul.navbar-nav main.main article li.nav-item, footer.main.footer article .nav-menu ul.navbar-nav li.nav-item, .nav-menu ul.navbar-nav footer.main.footer article li.nav-item {
-    font-size: 5.28rem;
+    font-size: 4.84rem;
     margin-bottom: 0.24vh;
     line-height: normal; }
 
