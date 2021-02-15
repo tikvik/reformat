@@ -68,7 +68,16 @@ h3,.perex
 	margin-right: auto
 
 
-
+body:not(.single)
+	#navbar
+		position: fixed
+		top: 0
+		left: 0
+		width: 100%
+		margin-left: auto
+		margin-right: auto
+		padding: $gap*2 $gap*2 $gap $gap*2
+		background-color: $white
 
 
 
@@ -188,5 +197,4 @@ body.podcast
 	.nav-menu
 		.navbar-nav
 			justify-content: start
-
 

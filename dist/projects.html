@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css"/>
   </head>
   <body class="body_projects" id="body"></body>
-  <body onLoad="res();">
+  <body class="body" onLoad="res();">
     <div id="navbar">
       <header class="wrap">
         <div class="logowrap" id="logowrap"><a class="no-underline" href="index.html"><img class="logo no-border" src="images/logo.svg"/></a>
@@ -31,36 +31,36 @@
         </nav>
       </header>
     </div>
-    <div class="grid">
-      <ul>
-        <li data-aos=""><a href="single0.html" style="background-color:undefined">
-            <div class="hovertext"></div></a></li>
-        <li data-aos=""><a href="single1.html" style="background-color:#9fcaf1">
-            <div class="hovertext"></div></a></li>
-        <li data-aos=""><a href="single2.html" style="background-color:#9fcaf1">
-            <div class="hovertext"></div></a></li>
-        <li data-aos=""><a href="single3.html" style="background-color:#9fcaf1">
-            <div class="hovertext"></div></a></li>
-        <li data-aos=""><a href="single4.html" style="background-color:#9fcaf1">
-            <div class="hovertext"></div></a></li>
-        <li data-aos=""><a href="single5.html" style="background-color:undefined">
-            <div class="hovertext"></div></a></li>
-        <li data-aos=""><a href="single6.html" style="background-color:undefined">
-            <div class="hovertext"></div></a></li>
-        <li data-aos=""><a href="single7.html" style="background-color:undefined">
-            <div class="hovertext"></div></a></li>
-      </ul>
-    </div>
-    <script>
-      AOS.init({
-      	offset: 300,
-      	disable: function() {
-      	    var maxWidth = 767;
-      	    return window.innerWidth > maxWidth;
-      	  }
-      })
-    </script>
   </body>
+  <div class="grid">
+    <ul>
+      <li data-aos=""><a href="single0.html" style="background-color:undefined">
+          <div class="hovertext"></div></a></li>
+      <li data-aos=""><a href="single1.html" style="background-color:#9fcaf1">
+          <div class="hovertext"></div></a></li>
+      <li data-aos=""><a href="single2.html" style="background-color:#9fcaf1">
+          <div class="hovertext"></div></a></li>
+      <li data-aos=""><a href="single3.html" style="background-color:#9fcaf1">
+          <div class="hovertext"></div></a></li>
+      <li data-aos=""><a href="single4.html" style="background-color:#9fcaf1">
+          <div class="hovertext"></div></a></li>
+      <li data-aos=""><a href="single5.html" style="background-color:undefined">
+          <div class="hovertext"></div></a></li>
+      <li data-aos=""><a href="single6.html" style="background-color:undefined">
+          <div class="hovertext"></div></a></li>
+      <li data-aos=""><a href="single7.html" style="background-color:undefined">
+          <div class="hovertext"></div></a></li>
+    </ul>
+  </div>
+  <script>
+    AOS.init({
+    	offset: 300,
+    	disable: function() {
+    	    var maxWidth = 767;
+    	    return window.innerWidth > maxWidth;
+    	  }
+    })
+  </script>
   <footer class="footer text-center">
     <p class="mt-1">Společný projekt INSTITUTU MEZINÁRODNÍCH VZTAHŮ PRAHA a INSTITUTU STÁTU A PRÁVA</p>
   </footer>
@@ -69,7 +69,7 @@
     var logowrap = document.getElementById("logowrap");
     var wrap = document.getElementById("wrap");
     
-    var pt2 = logowrap.offsetHeight;
+    //- var pt2 = logowrap.clientHeight;
     
     window.addEventListener("resize", res);
     
@@ -80,60 +80,60 @@
     
     }
     
-    (function(){
+    //- (function(){
     
-      var doc = document.documentElement;
-      var w = window;
+    //-   var doc = document.documentElement;
+    //-   var w = window;
     
-      var prevScroll = w.scrollY || doc.scrollTop;
-      var curScroll;
-      var direction = 0;
-      var prevDirection = 0;
+    //-   var prevScroll = w.scrollY || doc.scrollTop;
+    //-   var curScroll;
+    //-   var direction = 0;
+    //-   var prevDirection = 0;
     
       
-      var checkScroll = function() {
+    //-   var checkScroll = function() {
     
-        /*
-        ** Find the direction of scroll
-        ** 0 - initial, 1 - up, 2 - down
-        */
+    //-     /*
+    //-     ** Find the direction of scroll
+    //-     ** 0 - initial, 1 - up, 2 - down
+    //-     */
     
-        curScroll = w.scrollY || doc.scrollTop;
-        if (curScroll > prevScroll) { 
-          //scrolled up
-          direction = 2;
-        }
-        else if (curScroll < prevScroll) { 
-          //scrolled down
-          direction = 1;
-        }
+    //-     curScroll = w.scrollY || doc.scrollTop;
+    //-     if (curScroll > prevScroll) { 
+    //-       //scrolled up
+    //-       direction = 2;
+    //-     }
+    //-     else if (curScroll < prevScroll) { 
+    //-       //scrolled down
+    //-       direction = 1;
+    //-     }
     
-        if (direction !== prevDirection) {
-          toggleHeader(direction, curScroll);
-        }
+    //-     if (direction !== prevDirection) {
+    //-       toggleHeader(direction, curScroll);
+    //-     }
         
-        prevScroll = curScroll;
-      };
+    //-     prevScroll = curScroll;
+    //-   };
     
-      var toggleHeader = function(direction, curScroll) {
-      var header = document.getElementById('navbar');
+    //-   var toggleHeader = function(direction, curScroll) {
+    //-   var header = document.getElementById('navbar');
     
-        if (direction === 2 && curScroll > 52) { 
+    //-     if (direction === 2 && curScroll > 52) { 
           
-          //replace 52 with the height of your header in px
+    //-       //replace 52 with the height of your header in px
     
-          header.style.top = -pt2-30+"px";
+    //-       header.style.top = -pt2-30+"px";
     
-          prevDirection = direction;
-        }
-        else if (direction === 1) {
-          header.style.top = 0;
-          prevDirection = direction;
-        }
-      };
+    //-       prevDirection = direction;
+    //-     }
+    //-     else if (direction === 1) {
+    //-       header.style.top = 0;
+    //-       prevDirection = direction;
+    //-     }
+    //-   };
       
-      window.addEventListener('scroll', checkScroll);
+    //-   window.addEventListener('scroll', checkScroll);
     
-    })();
+    //- })();
   </script>
 </html>
