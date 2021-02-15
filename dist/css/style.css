@@ -66,6 +66,10 @@ p {
   padding: 0 1px;
   margin-top: 0; }
 
+.minus-wrap {
+  margin-left: -1.2vh !important;
+  margin-right: -1.2vh !important; }
+
 .p-gap {
   padding: 1.2vh; }
 
@@ -195,10 +199,14 @@ a {
 
 html, body {
   font-size: 11pt;
-  font-family: IBMPlexMono-Regular; }
+  font-family: IBMPlexMono-Regular;
+  margin: 1.2vh 0 1.2vh 0; }
   @media (min-width: 900px) {
     html, body {
       font-size: 2.16vh; } }
+  @media (min-width: 600px) {
+    html, body {
+      margin: 1.2vh; } }
 
 html {
   margin-left: calc(100vw - 100%);
@@ -263,7 +271,7 @@ body:not(.single) #navbar {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 2.4vh 2.4vh 1.2vh 2.4vh;
+  padding: 2.4vh 3.6vh 1.2vh 3.6vh;
   background-color: white; }
 
 .nav-menu {

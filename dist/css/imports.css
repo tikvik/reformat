@@ -66,6 +66,10 @@ p {
   padding: 0 1px;
   margin-top: 0; }
 
+.minus-wrap {
+  margin-left: -1.2vh !important;
+  margin-right: -1.2vh !important; }
+
 .p-gap {
   padding: 1.2vh; }
 

@@ -7,9 +7,10 @@ html,body
 	@include for-size(md)
 		font-size: $font-size
 	font-family: IBMPlexMono-Regular
-	// margin: $gap 0 $gap 0 
-	// @include for-size(sm)
-	// 	margin: $gap
+	margin: $gap 0 $gap 0 
+	@include for-size(sm)
+		margin: $gap
+
 html
 	margin-left: calc(100vw - 100%)
 	overflow-y: scroll
@@ -100,7 +101,7 @@ body:not(.single)
 		width: 100%
 		margin-left: auto
 		margin-right: auto
-		padding: $gap*2 $gap*2 $gap $gap*2
+		padding: $gap*2 $gap*3 $gap $gap*3
 		background-color: $white
 
 
