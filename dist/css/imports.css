@@ -85,6 +85,9 @@ p {
 .pt-0 {
   padding-top: 0 !important; }
 
+.pt-gap-3 {
+  padding-top: 3.6vh !important; }
+
 .mr-gap {
   margin-right: 2.4vh; }
 
