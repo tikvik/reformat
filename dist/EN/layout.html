@@ -8,7 +8,7 @@
     </title>
     <link rel="stylesheet" href="../css/style.css"/>
   </head>
-  <body onLoad="res();">
+  <body class="body" onLoad="res();" onresize="res();">
     <div id="navbar">
       <header class="wrap">
         <div class="logowrap"><a class="no-underline" href="index.html"><img class="logo no-border" src="images/logo.svg"/></a>
@@ -39,7 +39,7 @@
     var nav = document.getElementById("navbar");
     var wrap = document.getElementById("wrap");
     
-    window.addEventListener("resize", res);
+    //- window.addEventListener("resize", res);
     function res() {
     	var pt = nav.offsetHeight + "px";
     	wrap.style.paddingTop = pt;		
