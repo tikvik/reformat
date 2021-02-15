@@ -139,7 +139,7 @@ p {
   text-transform: lowercase; }
 
 .perex {
-  font-size: 3.024vh; }
+  font-size: 2.592vh; }
 
 .img-fluid {
   width: 100%; }
@@ -224,7 +224,7 @@ h2.subtitle, .nav-menu ul.navbar-nav li.subtitle.nav-item {
   font-weight: bold; }
 
 h3, .perex {
-  font-size: 3.024vh; }
+  font-size: 2.592vh; }
 
 .posts {
   display: flex;
